@@ -1,42 +1,12 @@
 window.WORKOUT_DATA = [
   {
-    "id": "dumbbell-bench-press",
-    "name": "Dumbbell bench press",
-    "day": "Day 1 · Push",
-    "sets": 3,
-    "reps": "6-10",
-    "rest": 150,
-    "cue": "Feet planted; shoulder blades set back and down; lower the dumbbells under control.",
-    "target": [
-      "chest"
-    ],
-    "secondary": [
-      "shoulders",
-      "triceps"
-    ],
-    "instructions": [
-      "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other.",
-      "Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width.",
-      "Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position.",
-      "Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it.",
-      "Repeat the movement for the prescribed amount of repetitions of your training program."
-    ],
-    "images": [
-      "images/machine-chest-press/0.jpg",
-      "images/machine-chest-press/1.jpg"
-    ],
-    "matchedName": "Dumbbell Bench Press",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
-  },
-  {
     "id": "incline-dumbbell-press",
     "name": "Incline dumbbell press",
     "day": "Day 1 · Push",
     "sets": 3,
-    "reps": "8-12",
-    "rest": 120,
-    "cue": "Use a 30-degree incline, keep elbows about 45 degrees from the torso, and lower toward the upper chest.",
+    "reps": "6-8",
+    "rest": 150,
+    "cue": "Use a 30-degree incline; keep elbows about 45 degrees from the torso and lower toward the upper chest.",
     "target": [
       "chest"
     ],
@@ -58,15 +28,71 @@ window.WORKOUT_DATA = [
       "images/incline-dumbbell-press/1.jpg"
     ],
     "matchedName": "Incline Dumbbell Press",
-    "matchType": "MATCHED",
-    "backCaution": false
+    "matchType": "MATCHED"
+  },
+  {
+    "id": "dumbbell-bench-press",
+    "name": "Dumbbell bench press",
+    "day": "Day 1 · Push",
+    "sets": 3,
+    "reps": "8-10",
+    "rest": 120,
+    "cue": "Set shoulder blades back and down; lower the dumbbells under control.",
+    "target": [
+      "chest"
+    ],
+    "secondary": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Lie down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other.",
+      "Then, using your thighs to help raise the dumbbells up, lift the dumbbells one at a time so that you can hold them in front of you at shoulder width.",
+      "Once at shoulder width, rotate your wrists forward so that the palms of your hands are facing away from you. The dumbbells should be just to the sides of your chest, with your upper arm and forearm creating a 90 degree angle. Be sure to maintain full control of the dumbbells at all times. This will be your starting position.",
+      "Then, as you breathe out, use your chest to push the dumbbells up. Lock your arms at the top of the lift and squeeze your chest, hold for a second and then begin coming down slowly. Tip: Ideally, lowering the weight should take about twice as long as raising it.",
+      "Repeat the movement for the prescribed amount of repetitions of your training program."
+    ],
+    "images": [
+      "images/dumbbell-bench-press/0.jpg",
+      "images/dumbbell-bench-press/1.jpg"
+    ],
+    "matchedName": "Dumbbell Bench Press",
+    "matchType": "MATCHED"
+  },
+  {
+    "id": "cable-fly",
+    "name": "Cable fly",
+    "day": "Day 1 · Push",
+    "sets": 2,
+    "reps": "12-15",
+    "rest": 90,
+    "cue": "Keep a slight elbow bend and squeeze the chest without shrugging.",
+    "target": [
+      "chest"
+    ],
+    "secondary": [
+      "shoulders"
+    ],
+    "instructions": [
+      "To get yourself into the starting position, place the pulleys on a high position (above your head), select the resistance to be used and hold the pulleys in each hand.",
+      "Step forward in front of an imaginary straight line between both pulleys while pulling your arms together in front of you. Your torso should have a small forward bend from the waist. This will be your starting position.",
+      "With a slight bend on your elbows in order to prevent stress at the biceps tendon, extend your arms to the side (straight out at both sides) in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms and torso should remain stationary; the movement should only occur at the shoulder joint.",
+      "Return your arms back to the starting position as you breathe out. Make sure to use the same arc of motion used to lower the weights.",
+      "Hold for a second at the starting position and repeat the movement for the prescribed amount of repetitions."
+    ],
+    "images": [
+      "images/cable-fly/0.jpg",
+      "images/cable-fly/1.jpg"
+    ],
+    "matchedName": "Cable Crossover",
+    "matchType": "EQUIVALENT"
   },
   {
     "id": "seated-dumbbell-shoulder-press",
     "name": "Seated dumbbell shoulder press",
     "day": "Day 1 · Push",
     "sets": 3,
-    "reps": "8-10",
+    "reps": "6-10",
     "rest": 120,
     "cue": "Keep your back supported and ribs down; stop before your lower back arches.",
     "target": [
@@ -88,45 +114,39 @@ window.WORKOUT_DATA = [
       "images/seated-dumbbell-shoulder-press/1.jpg"
     ],
     "matchedName": "Seated Dumbbell Press",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
+    "matchType": "EQUIVALENT"
   },
   {
-    "id": "cable-lateral-raise",
-    "name": "Cable lateral raise",
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell lateral raise",
     "day": "Day 1 · Push",
     "sets": 3,
-    "reps": "12-20",
+    "reps": "12-15",
     "rest": 60,
-    "cue": "Lead with the elbow and raise to shoulder height without swinging.",
+    "cue": "Keep a slight elbow bend and raise to shoulder height without swinging.",
     "target": [
       "shoulders"
     ],
-    "secondary": [
-      "traps"
-    ],
+    "secondary": [],
     "instructions": [
-      "In a standing position, hold a pair of dumbbells at your side. This will be your starting position.",
-      "Keeping your elbows slightly bent, raise the weights directly in front of you to shoulder height, avoiding any swinging or cheating.",
-      "At the top of the exercise move the weights out in front of you, keeping your arms extended.",
-      "Lower the weights with a controlled motion.",
-      "On the next repetition, raise the weights in front of you to shoulder height before moving the weights laterally to your sides.",
-      "Lower the weights to the starting position."
+      "Pick a couple of dumbbells and stand with a straight torso and the dumbbells by your side at arms length with the palms of the hand facing you. This will be your starting position.",
+      "While maintaining the torso in a stationary position (no swinging), lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to go up until you arms are parallel to the floor. Exhale as you execute this movement and pause for a second at the top.",
+      "Lower the dumbbells back down slowly to the starting position as you inhale.",
+      "Repeat for the recommended amount of repetitions."
     ],
     "images": [
-      "images/cable-lateral-raise/0.jpg",
-      "images/cable-lateral-raise/1.jpg"
+      "images/dumbbell-lateral-raise/0.jpg",
+      "images/dumbbell-lateral-raise/1.jpg"
     ],
-    "matchedName": "Side Laterals to Front Raise",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
+    "matchedName": "Side Lateral Raise",
+    "matchType": "EQUIVALENT"
   },
   {
     "id": "rope-triceps-pushdown",
     "name": "Rope triceps pushdown",
     "day": "Day 1 · Push",
-    "sets": 4,
-    "reps": "10-15",
+    "sets": 3,
+    "reps": "8-12",
     "rest": 60,
     "cue": "Keep elbows still by your sides; separate the rope at the bottom.",
     "target": [
@@ -145,15 +165,41 @@ window.WORKOUT_DATA = [
       "images/rope-triceps-pushdown/1.jpg"
     ],
     "matchedName": "Triceps Pushdown - Rope Attachment",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "overhead-cable-triceps-extension",
+    "name": "Overhead cable triceps extension",
+    "day": "Day 1 · Push",
+    "sets": 2,
+    "reps": "10-12",
+    "rest": 60,
+    "cue": "Point elbows forward and allow a comfortable stretch; extend without flaring.",
+    "target": [
+      "triceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "With your right hand, grasp a single handle attached to the high-cable pulley using a supinated (underhand; palms facing up) grip. You should be standing directly in front of the weight stack.",
+      "Now pull the handle down so that your upper arm and elbow are locked in to the side of your body. Your upper arm and forearm should form an acute angle (less than 90-degrees). You can keep the other arm by the waist and you can have one leg in front of you and the other one back for better balance. This will be your starting position.",
+      "As you contract the triceps, move the single handle attachment down to your side until your arm is straight. Breathe out as you perform this movement. Tip: Only the forearms should move. Your upper arms should remain stationary at all times.",
+      "Squeeze the triceps and hold for a second in this contracted position.",
+      "Slowly return the handle to the starting position.",
+      "Repeat for the recommended amount of repetitions and then perform the same movement with the other arm."
+    ],
+    "images": [
+      "images/overhead-cable-triceps-extension/0.jpg",
+      "images/overhead-cable-triceps-extension/1.jpg"
+    ],
+    "matchedName": "Cable One Arm Tricep Extension",
+    "matchType": "EQUIVALENT"
   },
   {
     "id": "lat-pulldown",
     "name": "Lat pulldown",
     "day": "Day 2 · Pull",
     "sets": 3,
-    "reps": "8-12",
+    "reps": "6-10",
     "rest": 120,
     "cue": "Use a shoulder-width overhand grip; bring the bar to your upper chest with a steady torso.",
     "target": [
@@ -185,7 +231,7 @@ window.WORKOUT_DATA = [
     "name": "Chest-supported dumbbell row",
     "day": "Day 2 · Pull",
     "sets": 3,
-    "reps": "8-12",
+    "reps": "8-10",
     "rest": 120,
     "cue": "Keep your chest on the pad, lead with your elbows, and squeeze your shoulder blades.",
     "target": [
@@ -213,29 +259,33 @@ window.WORKOUT_DATA = [
     "backCaution": true
   },
   {
-    "id": "straight-arm-cable-pulldown",
-    "name": "Straight-arm cable pulldown",
+    "id": "seated-cable-row",
+    "name": "Seated cable row",
     "day": "Day 2 · Pull",
     "sets": 2,
-    "reps": "12-15",
-    "rest": 90,
-    "cue": "Keep a soft elbow bend and sweep the bar toward your thighs.",
+    "reps": "10-12",
+    "rest": 120,
+    "cue": "Keep a neutral, comfortable spine and pull toward your lower ribs.",
     "target": [
-      "lats"
+      "middle back"
     ],
-    "secondary": [],
+    "secondary": [
+      "biceps",
+      "lats",
+      "shoulders"
+    ],
     "instructions": [
-      "You will start by grabbing the wide bar from the top pulley of a pulldown machine and using a wider than shoulder-width pronated (palms down) grip. Step backwards two feet or so.",
-      "Bend your torso forward at the waist by around 30-degrees with your arms fully extended in front of you and a slight bend at the elbows. If your arms are not fully extended then you need to step a bit more backwards until they are. Once your arms are fully extended and your torso is slightly bent at the waist, tighten the lats and then you are ready to begin.",
-      "While keeping the arms straight, pull the bar down by contracting the lats until your hands are next to the side of the thighs. Breathe out as you perform this step.",
-      "While keeping the arms straight, go back to the starting position while breathing in.",
+      "For this exercise you will need access to a low pulley row machine with a V-bar. Note: The V-bar will enable you to have a neutral grip where the palms of your hands face each other. To get into the starting position, first sit down on the machine and place your feet on the front platform or crossbar provided making sure that your knees are slightly bent and not locked.",
+      "Lean over as you keep the natural alignment of your back and grab the V-bar handles.",
+      "With your arms extended pull back until your torso is at a 90-degree angle from your legs. Your back should be slightly arched and your chest should be sticking out. You should be feeling a nice stretch on your lats as you hold the bar in front of you. This is the starting position of the exercise.",
+      "Keeping the torso stationary, pull the handles back towards your torso while keeping the arms close to it until you touch the abdominals. Breathe out as you perform that movement. At that point you should be squeezing your back muscles hard. Hold that contraction for a second and slowly go back to the original position while breathing in.",
       "Repeat for the recommended amount of repetitions."
     ],
     "images": [
-      "images/straight-arm-cable-pulldown/0.jpg",
-      "images/straight-arm-cable-pulldown/1.jpg"
+      "images/seated-cable-row/0.jpg",
+      "images/seated-cable-row/1.jpg"
     ],
-    "matchedName": "Straight-Arm Pulldown",
+    "matchedName": "Seated Cable Rows",
     "matchType": "EQUIVALENT",
     "backCaution": true
   },
@@ -244,7 +294,7 @@ window.WORKOUT_DATA = [
     "name": "Reverse pec deck",
     "day": "Day 2 · Pull",
     "sets": 3,
-    "reps": "12-20",
+    "reps": "12-15",
     "rest": 60,
     "cue": "Use a light load and lead the reverse fly with your elbows.",
     "target": [
@@ -266,11 +316,37 @@ window.WORKOUT_DATA = [
     "backCaution": true
   },
   {
+    "id": "cable-curl",
+    "name": "Cable curl",
+    "day": "Day 2 · Pull",
+    "sets": 3,
+    "reps": "8-10",
+    "rest": 60,
+    "cue": "Keep your elbows pinned and torso still; lower the handle slowly.",
+    "target": [
+      "biceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Stand between a couple of high pulleys and grab a handle in each arm. Position your upper arms in a way that they are parallel to the floor with the palms of your hands facing you. This will be your starting position.",
+      "Curl the handles towards you until they are next to your ears. Make sure that as you do so you flex your biceps and exhale. The upper arms should remain stationary and only the forearms should move. Hold for a second in the contracted position as you squeeze the biceps.",
+      "Slowly bring back the arms to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/cable-curl/0.jpg",
+      "images/cable-curl/1.jpg"
+    ],
+    "matchedName": "High Cable Curls",
+    "matchType": "EQUIVALENT",
+    "backCaution": true
+  },
+  {
     "id": "hammer-curl",
     "name": "Hammer curl",
     "day": "Day 2 · Pull",
-    "sets": 4,
-    "reps": "10-15",
+    "sets": 2,
+    "reps": "12-15",
     "rest": 60,
     "cue": "Keep a neutral grip and elbows still; avoid swinging.",
     "target": [
@@ -295,9 +371,9 @@ window.WORKOUT_DATA = [
   {
     "id": "leg-press-quad-stance",
     "name": "Leg press (quad stance)",
-    "day": "Day 3 · Lower A",
+    "day": "Day 3 · Legs",
     "sets": 4,
-    "reps": "8-12",
+    "reps": "8-10",
     "rest": 150,
     "cue": "Use a controlled, comfortable depth and drive through the mid-foot; keep your back on the pad.",
     "target": [
@@ -316,305 +392,21 @@ window.WORKOUT_DATA = [
       "Repeat for the recommended amount of repetitions and ensure to lock the safety pins properly once you are done. You do not want that platform falling on you fully loaded."
     ],
     "images": [
-      "images/hack-squat/0.jpg",
-      "images/hack-squat/1.jpg"
+      "images/leg-press-quad-stance/0.jpg",
+      "images/leg-press-quad-stance/1.jpg"
     ],
     "matchedName": "Leg Press",
     "matchType": "EQUIVALENT",
     "backCaution": true
   },
   {
-    "id": "walking-lunge-dumbbells",
-    "name": "Walking lunge (dumbbells)",
-    "day": "Day 3 · Lower A",
-    "sets": 2,
-    "reps": "8-10 per leg",
-    "rest": 90,
-    "cue": "Take a controlled long stride, keep your torso upright, and use support if balance is uncertain.",
-    "target": [
-      "quadriceps"
-    ],
-    "secondary": [
-      "calves",
-      "glutes",
-      "hamstrings"
-    ],
-    "instructions": [
-      "Begin standing with your feet shoulder width apart and a barbell across your upper back.",
-      "Step forward with one leg, flexing the knees to drop your hips. Descend until your rear knee nearly touches the ground. Your posture should remain upright, and your front knee should stay above the front foot.",
-      "Drive through the heel of your lead foot and extend both knees to raise yourself back up.",
-      "Step forward with your rear foot, repeating the lunge on the opposite leg."
-    ],
-    "images": [
-      "images/walking-lunges-dumbbells/0.jpg",
-      "images/walking-lunges-dumbbells/1.jpg"
-    ],
-    "matchedName": "Barbell Walking Lunge",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "leg-extension",
-    "name": "Leg extension",
-    "day": "Day 3 · Lower A",
-    "sets": 3,
-    "reps": "12-15",
-    "rest": 90,
-    "cue": "Pause for one second at the top; lower the weight under control.",
-    "target": [
-      "quadriceps"
-    ],
-    "secondary": [],
-    "instructions": [
-      "For this exercise you will need to use a leg extension machine. First choose your weight and sit on the machine with your legs under the pad (feet pointed forward) and the hands holding the side bars. This will be your starting position. Tip: You will need to adjust the pad so that it falls on top of your lower leg (just above your feet). Also, make sure that your legs form a 90-degree angle between the lower and upper leg. If the angle is less than 90-degrees then that means the knee is over the toes which in turn creates undue stress at the knee joint. If the machine is designed that way, either look for another machine or just make sure that when you start executing the exercise you stop going down once you hit the 90-degree angle.",
-      "Using your quadriceps, extend your legs to the maximum as you exhale. Ensure that the rest of the body remains stationary on the seat. Pause a second on the contracted position.",
-      "Slowly lower the weight back to the original position as you inhale, ensuring that you do not go past the 90-degree angle limit.",
-      "Repeat for the recommended amount of times."
-    ],
-    "images": [
-      "images/leg-extension/0.jpg",
-      "images/leg-extension/1.jpg"
-    ],
-    "matchedName": "Leg Extensions",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "lying-leg-curl",
-    "name": "Lying leg curl",
-    "day": "Day 3 · Lower A",
-    "sets": 3,
-    "reps": "10-15",
-    "rest": 90,
-    "cue": "Keep your hips pressed into the pad and control the lowering phase.",
-    "target": [
-      "hamstrings"
-    ],
-    "secondary": [],
-    "instructions": [
-      "Adjust the machine lever to fit your height and lie face down on the leg curl machine with the pad of the lever on the back of your legs (just a few inches under the calves). Tip: Preferably use a leg curl machine that is angled as opposed to flat since an angled position is more favorable for hamstrings recruitment.",
-      "Keeping the torso flat on the bench, ensure your legs are fully stretched and grab the side handles of the machine. Position your toes straight (or you can also use any of the other two stances described on the foot positioning section). This will be your starting position.",
-      "As you exhale, curl your legs up as far as possible without lifting the upper legs from the pad. Once you hit the fully contracted position, hold it for a second.",
-      "As you inhale, bring the legs back to the initial position. Repeat for the recommended amount of repetitions."
-    ],
-    "images": [
-      "images/lying-leg-curl/0.jpg",
-      "images/lying-leg-curl/1.jpg"
-    ],
-    "matchedName": "Lying Leg Curls",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "standing-calf-raise",
-    "name": "Standing calf raise",
-    "day": "Day 3 · Lower A",
-    "sets": 4,
-    "reps": "10-15",
-    "rest": 60,
-    "cue": "Use a comfortable full stretch and pause briefly at the top.",
-    "target": [
-      "calves"
-    ],
-    "secondary": [],
-    "instructions": [
-      "Adjust the padded lever of the calf raise machine to fit your height.",
-      "Place your shoulders under the pads provided and position your toes facing forward (or using any of the two other positions described at the beginning of the chapter). The balls of your feet should be secured on top of the calf block with the heels extending off it. Push the lever up by extending your hips and knees until your torso is standing erect. The knees should be kept with a slight bend; never locked. Toes should be facing forward, outwards or inwards as described at the beginning of the chapter. This will be your starting position.",
-      "Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down.",
-      "Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched.",
-      "Repeat for the recommended amount of repetitions."
-    ],
-    "images": [
-      "images/standing-calf-raise/0.jpg",
-      "images/standing-calf-raise/1.jpg"
-    ],
-    "matchedName": "Standing Calf Raises",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "cable-fly",
-    "name": "Cable fly",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 3,
-    "reps": "10-15",
-    "rest": 90,
-    "cue": "Keep a slight bend in your elbows and bring your hands together without shrugging.",
-    "target": [
-      "chest"
-    ],
-    "secondary": [
-      "shoulders"
-    ],
-    "instructions": [
-      "To get yourself into the starting position, place the pulleys on a high position (above your head), select the resistance to be used and hold the pulleys in each hand.",
-      "Step forward in front of an imaginary straight line between both pulleys while pulling your arms together in front of you. Your torso should have a small forward bend from the waist. This will be your starting position.",
-      "With a slight bend on your elbows in order to prevent stress at the biceps tendon, extend your arms to the side (straight out at both sides) in a wide arc until you feel a stretch on your chest. Breathe in as you perform this portion of the movement. Tip: Keep in mind that throughout the movement, the arms and torso should remain stationary; the movement should only occur at the shoulder joint.",
-      "Return your arms back to the starting position as you breathe out. Make sure to use the same arc of motion used to lower the weights.",
-      "Hold for a second at the starting position and repeat the movement for the prescribed amount of repetitions."
-    ],
-    "images": [
-      "images/pec-deck/0.jpg",
-      "images/pec-deck/1.jpg"
-    ],
-    "matchedName": "Cable Crossover",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
-  },
-  {
-    "id": "seated-cable-row",
-    "name": "Seated cable row",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 3,
-    "reps": "8-12",
-    "rest": 120,
-    "cue": "Keep a neutral spine and pull the handle toward your lower ribs.",
-    "target": [
-      "middle back"
-    ],
-    "secondary": [
-      "biceps",
-      "lats",
-      "shoulders"
-    ],
-    "instructions": [
-      "For this exercise you will need access to a low pulley row machine with a V-bar. Note: The V-bar will enable you to have a neutral grip where the palms of your hands face each other. To get into the starting position, first sit down on the machine and place your feet on the front platform or crossbar provided making sure that your knees are slightly bent and not locked.",
-      "Lean over as you keep the natural alignment of your back and grab the V-bar handles.",
-      "With your arms extended pull back until your torso is at a 90-degree angle from your legs. Your back should be slightly arched and your chest should be sticking out. You should be feeling a nice stretch on your lats as you hold the bar in front of you. This is the starting position of the exercise.",
-      "Keeping the torso stationary, pull the handles back towards your torso while keeping the arms close to it until you touch the abdominals. Breathe out as you perform that movement. At that point you should be squeezing your back muscles hard. Hold that contraction for a second and slowly go back to the original position while breathing in.",
-      "Repeat for the recommended amount of repetitions."
-    ],
-    "images": [
-      "images/chest-supported-t-bar-row/0.jpg",
-      "images/chest-supported-t-bar-row/1.jpg"
-    ],
-    "matchedName": "Seated Cable Rows",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "assisted-neutral-grip-pull-up",
-    "name": "Assisted neutral-grip pull-up",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 3,
-    "reps": "6-10",
-    "rest": 120,
-    "cue": "Start from a controlled hang and pull until your chin clears your hands; avoid swinging.",
-    "target": [
-      "lats"
-    ],
-    "secondary": [
-      "biceps",
-      "middle back",
-      "shoulders"
-    ],
-    "instructions": [
-      "Start by placing the middle of the V-bar in the middle of the pull-up bar (assuming that the pull-up station you are using does not have neutral grip handles). The V-Bar handles will be facing down so that you can hang from the pull-up bar through the use of the handles.",
-      "Once you securely place the V-bar, take a hold of the bar from each side and hang from it. Stick your chest out and lean yourself back slightly in order to better engage the lats. This will be your starting position.",
-      "Using your lats, pull your torso up while leaning your head back slightly so that you do not hit yourself with the chin-up bar. Continue until your chest nearly touches the V-bar. Exhale as you execute this motion.",
-      "After a second hold on the contracted position, slowly lower your body back to the starting position as you breathe in.",
-      "Repeat for the prescribed number of repetitions."
-    ],
-    "images": [
-      "images/neutral-grip-pull-up/0.jpg",
-      "images/neutral-grip-pull-up/1.jpg"
-    ],
-    "matchedName": "V-Bar Pullup",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "dumbbell-lateral-raise",
-    "name": "Dumbbell lateral raise",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 2,
-    "reps": "12-20",
-    "rest": 60,
-    "cue": "Keep a slight elbow bend and raise to shoulder height without swinging.",
-    "target": [
-      "shoulders"
-    ],
-    "secondary": [
-      "traps"
-    ],
-    "instructions": [
-      "In a standing position, hold a pair of dumbbells at your side. This will be your starting position.",
-      "Keeping your elbows slightly bent, raise the weights directly in front of you to shoulder height, avoiding any swinging or cheating.",
-      "At the top of the exercise move the weights out in front of you, keeping your arms extended.",
-      "Lower the weights with a controlled motion.",
-      "On the next repetition, raise the weights in front of you to shoulder height before moving the weights laterally to your sides.",
-      "Lower the weights to the starting position."
-    ],
-    "images": [
-      "images/dumbbell-lateral-raise/0.jpg",
-      "images/dumbbell-lateral-raise/1.jpg"
-    ],
-    "matchedName": "Side Laterals to Front Raise",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
-  },
-  {
-    "id": "cable-curl",
-    "name": "Cable curl",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 4,
-    "reps": "10-15",
-    "rest": 60,
-    "cue": "Keep your elbows pinned and your torso still; lower the handle slowly.",
-    "target": [
-      "biceps"
-    ],
-    "secondary": [],
-    "instructions": [
-      "Stand between a couple of high pulleys and grab a handle in each arm. Position your upper arms in a way that they are parallel to the floor with the palms of your hands facing you. This will be your starting position.",
-      "Curl the handles towards you until they are next to your ears. Make sure that as you do so you flex your biceps and exhale. The upper arms should remain stationary and only the forearms should move. Hold for a second in the contracted position as you squeeze the biceps.",
-      "Slowly bring back the arms to the starting position.",
-      "Repeat for the recommended amount of repetitions."
-    ],
-    "images": [
-      "images/cable-curl/0.jpg",
-      "images/cable-curl/1.jpg"
-    ],
-    "matchedName": "High Cable Curls",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
-  },
-  {
-    "id": "overhead-cable-triceps-extension",
-    "name": "Overhead cable triceps extension",
-    "day": "Day 4 · Upper + Arms",
-    "sets": 4,
-    "reps": "10-15",
-    "rest": 60,
-    "cue": "Point elbows forward, allow a comfortable stretch, and extend without flaring the elbows.",
-    "target": [
-      "triceps"
-    ],
-    "secondary": [],
-    "instructions": [
-      "With your right hand, grasp a single handle attached to the high-cable pulley using a supinated (underhand; palms facing up) grip. You should be standing directly in front of the weight stack.",
-      "Now pull the handle down so that your upper arm and elbow are locked in to the side of your body. Your upper arm and forearm should form an acute angle (less than 90-degrees). You can keep the other arm by the waist and you can have one leg in front of you and the other one back for better balance. This will be your starting position.",
-      "As you contract the triceps, move the single handle attachment down to your side until your arm is straight. Breathe out as you perform this movement. Tip: Only the forearms should move. Your upper arms should remain stationary at all times.",
-      "Squeeze the triceps and hold for a second in this contracted position.",
-      "Slowly return the handle to the starting position.",
-      "Repeat for the recommended amount of repetitions and then perform the same movement with the other arm."
-    ],
-    "images": [
-      "images/overhead-cable-triceps-extension/0.jpg",
-      "images/overhead-cable-triceps-extension/1.jpg"
-    ],
-    "matchedName": "Cable One Arm Tricep Extension",
-    "matchType": "EQUIVALENT",
-    "backCaution": false
-  },
-  {
     "id": "romanian-deadlift-light-controlled",
     "name": "Romanian deadlift (light, controlled)",
-    "day": "Day 5 · Lower B + Core",
+    "day": "Day 3 · Legs",
     "sets": 2,
     "reps": "8-10",
     "rest": 120,
-    "cue": "Keep this light; hinge at the hips with a neutral spine and stop around mid-shin or sooner if your back position changes.",
+    "cue": "Keep this light; hinge with a neutral spine and stop around mid-shin or sooner if your back position changes.",
     "target": [
       "hamstrings"
     ],
@@ -640,13 +432,13 @@ window.WORKOUT_DATA = [
     "backCaution": true
   },
   {
-    "id": "leg-press-feet-high-and-wide",
-    "name": "Leg press (feet high and wide)",
-    "day": "Day 5 · Lower B + Core",
+    "id": "walking-lunge-dumbbells",
+    "name": "Walking lunge (dumbbells)",
+    "day": "Day 3 · Legs",
     "sets": 3,
-    "reps": "10-12",
-    "rest": 120,
-    "cue": "Place feet high and wide; do not descend so far that your lower back rounds off the pad.",
+    "reps": "10 per leg",
+    "rest": 90,
+    "cue": "Take a controlled stride, keep your torso upright, and use support if balance is uncertain.",
     "target": [
       "quadriceps"
     ],
@@ -656,53 +448,24 @@ window.WORKOUT_DATA = [
       "hamstrings"
     ],
     "instructions": [
-      "Using a leg press machine, sit down on the machine and place your legs on the platform directly in front of you at a medium (shoulder width) foot stance. (Note: For the purposes of this discussion we will use the medium stance described above which targets overall development; however you can choose any of the three stances described in the foot positioning section).",
-      "Lower the safety bars holding the weighted platform in place and press the platform all the way up until your legs are fully extended in front of you. Tip: Make sure that you do not lock your knees. Your torso and the legs should make a perfect 90-degree angle. This will be your starting position.",
-      "As you inhale, slowly lower the platform until your upper and lower legs make a 90-degree angle.",
-      "Pushing mainly with the heels of your feet and using the quadriceps go back to the starting position as you exhale.",
-      "Repeat for the recommended amount of repetitions and ensure to lock the safety pins properly once you are done. You do not want that platform falling on you fully loaded."
+      "Begin standing with your feet shoulder width apart and a barbell across your upper back.",
+      "Step forward with one leg, flexing the knees to drop your hips. Descend until your rear knee nearly touches the ground. Your posture should remain upright, and your front knee should stay above the front foot.",
+      "Drive through the heel of your lead foot and extend both knees to raise yourself back up.",
+      "Step forward with your rear foot, repeating the lunge on the opposite leg."
     ],
     "images": [
-      "images/leg-press-feet-high-and-wide/0.jpg",
-      "images/leg-press-feet-high-and-wide/1.jpg"
+      "images/walking-lunge-dumbbells/0.jpg",
+      "images/walking-lunge-dumbbells/1.jpg"
     ],
-    "matchedName": "Leg Press",
-    "matchType": "EQUIVALENT",
-    "backCaution": true
-  },
-  {
-    "id": "hip-thrust",
-    "name": "Hip thrust",
-    "day": "Day 5 · Lower B + Core",
-    "sets": 3,
-    "reps": "8-12",
-    "rest": 90,
-    "cue": "Keep your chin tucked, drive through your heels, and pause at the top.",
-    "target": [
-      "glutes"
-    ],
-    "secondary": [
-      "calves",
-      "hamstrings"
-    ],
-    "instructions": [
-      "Begin seated on the ground with a bench directly behind you. Have a loaded barbell over your legs. Using a fat bar or having a pad on the bar can greatly reduce the discomfort caused by this exercise.",
-      "Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it.",
-      "Begin the movement by driving through your feet, extending your hips vertically through the bar. Your weight should be supported by your shoulder blades and your feet. Extend as far as possible, then reverse the motion to return to the starting position."
-    ],
-    "images": [
-      "images/hip-thrust/0.jpg",
-      "images/hip-thrust/1.jpg"
-    ],
-    "matchedName": "Barbell Hip Thrust",
+    "matchedName": "Barbell Walking Lunge",
     "matchType": "EQUIVALENT",
     "backCaution": true
   },
   {
     "id": "seated-leg-curl",
     "name": "Seated leg curl",
-    "day": "Day 5 · Lower B + Core",
-    "sets": 3,
+    "day": "Day 3 · Legs",
+    "sets": 4,
     "reps": "10-15",
     "rest": 90,
     "cue": "Set the pad just above your heels and control the return.",
@@ -726,37 +489,62 @@ window.WORKOUT_DATA = [
     "backCaution": true
   },
   {
-    "id": "seated-calf-raise",
-    "name": "Seated calf raise",
-    "day": "Day 5 · Lower B + Core",
+    "id": "leg-extension",
+    "name": "Leg extension",
+    "day": "Day 3 · Legs",
+    "sets": 2,
+    "reps": "12-15",
+    "rest": 90,
+    "cue": "Pause for one second at the top and lower under control.",
+    "target": [
+      "quadriceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "For this exercise you will need to use a leg extension machine. First choose your weight and sit on the machine with your legs under the pad (feet pointed forward) and the hands holding the side bars. This will be your starting position. Tip: You will need to adjust the pad so that it falls on top of your lower leg (just above your feet). Also, make sure that your legs form a 90-degree angle between the lower and upper leg. If the angle is less than 90-degrees then that means the knee is over the toes which in turn creates undue stress at the knee joint. If the machine is designed that way, either look for another machine or just make sure that when you start executing the exercise you stop going down once you hit the 90-degree angle.",
+      "Using your quadriceps, extend your legs to the maximum as you exhale. Ensure that the rest of the body remains stationary on the seat. Pause a second on the contracted position.",
+      "Slowly lower the weight back to the original position as you inhale, ensuring that you do not go past the 90-degree angle limit.",
+      "Repeat for the recommended amount of times."
+    ],
+    "images": [
+      "images/leg-extension/0.jpg",
+      "images/leg-extension/1.jpg"
+    ],
+    "matchedName": "Leg Extensions",
+    "matchType": "EQUIVALENT",
+    "backCaution": true
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": "Standing calf raise",
+    "day": "Day 3 · Legs",
     "sets": 4,
-    "reps": "12-20",
+    "reps": "10-15",
     "rest": 60,
-    "cue": "Use a deep, comfortable stretch and pause at the top.",
+    "cue": "Use a comfortable full stretch and pause briefly at the top.",
     "target": [
       "calves"
     ],
     "secondary": [],
     "instructions": [
-      "Sit on the machine and place your toes on the lower portion of the platform provided with the heels extending off. Choose the toe positioning of your choice (forward, in, or out) as per the beginning of this chapter.",
-      "Place your lower thighs under the lever pad, which will need to be adjusted according to the height of your thighs. Now place your hands on top of the lever pad in order to prevent it from slipping forward.",
-      "Lift the lever slightly by pushing your heels up and release the safety bar. This will be your starting position.",
-      "Slowly lower your heels by bending at the ankles until the calves are fully stretched. Inhale as you perform this movement.",
-      "Raise the heels by extending the ankles as high as possible as you contract the calves and breathe out. Hold the top contraction for a second.",
+      "Adjust the padded lever of the calf raise machine to fit your height.",
+      "Place your shoulders under the pads provided and position your toes facing forward (or using any of the two other positions described at the beginning of the chapter). The balls of your feet should be secured on top of the calf block with the heels extending off it. Push the lever up by extending your hips and knees until your torso is standing erect. The knees should be kept with a slight bend; never locked. Toes should be facing forward, outwards or inwards as described at the beginning of the chapter. This will be your starting position.",
+      "Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down.",
+      "Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched.",
       "Repeat for the recommended amount of repetitions."
     ],
     "images": [
-      "images/seated-calf-raise/0.jpg",
-      "images/seated-calf-raise/1.jpg"
+      "images/standing-calf-raise/0.jpg",
+      "images/standing-calf-raise/1.jpg"
     ],
-    "matchedName": "Seated Calf Raise",
-    "matchType": "MATCHED",
+    "matchedName": "Standing Calf Raises",
+    "matchType": "EQUIVALENT",
     "backCaution": true
   },
   {
     "id": "cable-crunch",
     "name": "Cable crunch",
-    "day": "Day 5 · Lower B + Core",
+    "day": "Day 3 · Legs",
     "sets": 3,
     "reps": "12-15",
     "rest": 60,
@@ -782,28 +570,274 @@ window.WORKOUT_DATA = [
     "backCaution": true
   },
   {
-    "id": "plank",
-    "name": "Plank",
-    "day": "Day 5 · Lower B + Core",
+    "id": "incline-fly-machine",
+    "name": "Incline fly machine",
+    "day": "Day 4 · Upper + Arms",
     "sets": 3,
-    "reps": "45-60 sec",
-    "rest": 60,
-    "cue": "Keep a straight line from head to hips with abs and glutes braced.",
+    "reps": "12-15",
+    "rest": 90,
+    "cue": "Keep a slight bend in your elbows and squeeze without shrugging.",
     "target": [
-      "abdominals"
+      "chest"
+    ],
+    "secondary": [
+      "shoulders"
+    ],
+    "instructions": [
+      "Hold a dumbbell on each hand and lie on an incline bench that is set to an incline angle of no more than 30 degrees.",
+      "Extend your arms above you with a slight bend at the elbows.",
+      "Now rotate the wrists so that the palms of your hands are facing you. Tip: The pinky fingers should be next to each other. This will be your starting position.",
+      "As you breathe in, start to slowly lower the arms to the side while keeping the arms extended and while rotating the wrists until the palms of the hand are facing each other. Tip: At the end of the movement the arms will be by your side with the palms facing the ceiling.",
+      "As you exhale start to bring the dumbbells back up to the starting position by reversing the motion and rotating the hands so that the pinky fingers are next to each other again. Tip: Keep in mind that the movement will only happen at the shoulder joint and at the wrist. There is no motion that happens at the elbow joint.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/incline-fly-machine/0.jpg",
+      "images/incline-fly-machine/1.jpg"
+    ],
+    "matchedName": "Incline Dumbbell Flyes",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated cable row",
+    "day": "Day 4 · Upper + Arms",
+    "sets": 3,
+    "reps": "12",
+    "rest": 120,
+    "cue": "Keep your spine neutral and pull toward your lower ribs.",
+    "target": [
+      "middle back"
+    ],
+    "secondary": [
+      "biceps",
+      "lats",
+      "shoulders"
+    ],
+    "instructions": [
+      "For this exercise you will need access to a low pulley row machine with a V-bar. Note: The V-bar will enable you to have a neutral grip where the palms of your hands face each other. To get into the starting position, first sit down on the machine and place your feet on the front platform or crossbar provided making sure that your knees are slightly bent and not locked.",
+      "Lean over as you keep the natural alignment of your back and grab the V-bar handles.",
+      "With your arms extended pull back until your torso is at a 90-degree angle from your legs. Your back should be slightly arched and your chest should be sticking out. You should be feeling a nice stretch on your lats as you hold the bar in front of you. This is the starting position of the exercise.",
+      "Keeping the torso stationary, pull the handles back towards your torso while keeping the arms close to it until you touch the abdominals. Breathe out as you perform that movement. At that point you should be squeezing your back muscles hard. Hold that contraction for a second and slowly go back to the original position while breathing in.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/seated-cable-row/0.jpg",
+      "images/seated-cable-row/1.jpg"
+    ],
+    "matchedName": "Seated Cable Rows",
+    "matchType": "EQUIVALENT",
+    "backCaution": true
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat pulldown",
+    "day": "Day 4 · Upper + Arms",
+    "sets": 2,
+    "reps": "10-12",
+    "rest": 90,
+    "cue": "Use a comfortable grip and bring the bar to your upper chest without leaning back.",
+    "target": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "middle back",
+      "shoulders"
+    ],
+    "instructions": [
+      "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
+      "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the bar; therefore do not try to pull down the bar using the forearms.",
+      "After a second at the contracted position squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
+      "Repeat this motion for the prescribed amount of repetitions."
+    ],
+    "images": [
+      "images/lat-pulldown/0.jpg",
+      "images/lat-pulldown/1.jpg"
+    ],
+    "matchedName": "Wide-Grip Lat Pulldown",
+    "matchType": "EQUIVALENT",
+    "backCaution": true
+  },
+  {
+    "id": "dumbbell-lateral-raise",
+    "name": "Dumbbell lateral raise",
+    "day": "Day 4 · Upper + Arms",
+    "sets": 3,
+    "reps": "15-20",
+    "rest": 60,
+    "cue": "Raise with control; use small partials only on the final set if form stays strict.",
+    "target": [
+      "shoulders"
     ],
     "secondary": [],
     "instructions": [
-      "Get into a prone position on the floor, supporting your weight on your toes and your forearms. Your arms are bent and directly below the shoulder.",
-      "Keep your body straight at all times, and hold this position as long as possible. To increase difficulty, an arm or leg can be raised."
+      "Pick a couple of dumbbells and stand with a straight torso and the dumbbells by your side at arms length with the palms of the hand facing you. This will be your starting position.",
+      "While maintaining the torso in a stationary position (no swinging), lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to go up until you arms are parallel to the floor. Exhale as you execute this movement and pause for a second at the top.",
+      "Lower the dumbbells back down slowly to the starting position as you inhale.",
+      "Repeat for the recommended amount of repetitions."
     ],
     "images": [
-      "images/plank/0.jpg",
-      "images/plank/1.jpg"
+      "images/dumbbell-lateral-raise/0.jpg",
+      "images/dumbbell-lateral-raise/1.jpg"
     ],
-    "matchedName": "Plank",
-    "matchType": "MATCHED",
-    "weightless": true,
-    "backCaution": true
+    "matchedName": "Side Lateral Raise",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "overhead-cable-triceps-extension",
+    "name": "Overhead cable triceps extension",
+    "day": "Day 4 · Upper + Arms",
+    "sets": 3,
+    "reps": "12-15",
+    "rest": 60,
+    "cue": "Keep elbows forward and allow a comfortable stretch.",
+    "target": [
+      "triceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "With your right hand, grasp a single handle attached to the high-cable pulley using a supinated (underhand; palms facing up) grip. You should be standing directly in front of the weight stack.",
+      "Now pull the handle down so that your upper arm and elbow are locked in to the side of your body. Your upper arm and forearm should form an acute angle (less than 90-degrees). You can keep the other arm by the waist and you can have one leg in front of you and the other one back for better balance. This will be your starting position.",
+      "As you contract the triceps, move the single handle attachment down to your side until your arm is straight. Breathe out as you perform this movement. Tip: Only the forearms should move. Your upper arms should remain stationary at all times.",
+      "Squeeze the triceps and hold for a second in this contracted position.",
+      "Slowly return the handle to the starting position.",
+      "Repeat for the recommended amount of repetitions and then perform the same movement with the other arm."
+    ],
+    "images": [
+      "images/overhead-cable-triceps-extension/0.jpg",
+      "images/overhead-cable-triceps-extension/1.jpg"
+    ],
+    "matchedName": "Cable One Arm Tricep Extension",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "cable-curl",
+    "name": "Cable curl",
+    "day": "Day 4 · Upper + Arms",
+    "sets": 3,
+    "reps": "10-12",
+    "rest": 60,
+    "cue": "Keep elbows pinned and avoid swinging.",
+    "target": [
+      "biceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Stand between a couple of high pulleys and grab a handle in each arm. Position your upper arms in a way that they are parallel to the floor with the palms of your hands facing you. This will be your starting position.",
+      "Curl the handles towards you until they are next to your ears. Make sure that as you do so you flex your biceps and exhale. The upper arms should remain stationary and only the forearms should move. Hold for a second in the contracted position as you squeeze the biceps.",
+      "Slowly bring back the arms to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/cable-curl/0.jpg",
+      "images/cable-curl/1.jpg"
+    ],
+    "matchedName": "High Cable Curls",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "cable-lateral-raise",
+    "name": "Cable lateral raise",
+    "day": "Day 5 · Arms + Delts",
+    "sets": 2,
+    "reps": "15-20",
+    "rest": 60,
+    "cue": "Lead with the elbow; use a controlled range and avoid leaning.",
+    "target": [
+      "shoulders"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Pick a couple of dumbbells and stand with a straight torso and the dumbbells by your side at arms length with the palms of the hand facing you. This will be your starting position.",
+      "While maintaining the torso in a stationary position (no swinging), lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as if pouring water in a glass. Continue to go up until you arms are parallel to the floor. Exhale as you execute this movement and pause for a second at the top.",
+      "Lower the dumbbells back down slowly to the starting position as you inhale.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/cable-lateral-raise/0.jpg",
+      "images/cable-lateral-raise/1.jpg"
+    ],
+    "matchedName": "Side Lateral Raise",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "rope-triceps-pushdown",
+    "name": "Rope triceps pushdown",
+    "day": "Day 5 · Arms + Delts",
+    "sets": 2,
+    "reps": "12-15",
+    "rest": 60,
+    "cue": "Keep elbows fixed and split the rope at the bottom.",
+    "target": [
+      "triceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Attach a rope attachment to a high pulley and grab with a neutral grip (palms facing each other).",
+      "Standing upright with the torso straight and a very small inclination forward, bring the upper arms close to your body and perpendicular to the floor. The forearms should be pointing up towards the pulley as they hold the rope with the palms facing each other. This is your starting position.",
+      "Using the triceps, bring the rope down as you bring each side of the rope to the side of your thighs. At the end of the movement the arms are fully extended and perpendicular to the floor. The upper arms should always remain stationary next to your torso and only the forearms should move. Exhale as you perform this movement.",
+      "After holding for a second, at the contracted position, bring the rope slowly up to the starting point. Breathe in as you perform this step.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/rope-triceps-pushdown/0.jpg",
+      "images/rope-triceps-pushdown/1.jpg"
+    ],
+    "matchedName": "Triceps Pushdown - Rope Attachment",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "cable-curl",
+    "name": "Cable curl",
+    "day": "Day 5 · Arms + Delts",
+    "sets": 2,
+    "reps": "12-15",
+    "rest": 60,
+    "cue": "Keep elbows pinned and lower the handle slowly.",
+    "target": [
+      "biceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Stand between a couple of high pulleys and grab a handle in each arm. Position your upper arms in a way that they are parallel to the floor with the palms of your hands facing you. This will be your starting position.",
+      "Curl the handles towards you until they are next to your ears. Make sure that as you do so you flex your biceps and exhale. The upper arms should remain stationary and only the forearms should move. Hold for a second in the contracted position as you squeeze the biceps.",
+      "Slowly bring back the arms to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/cable-curl/0.jpg",
+      "images/cable-curl/1.jpg"
+    ],
+    "matchedName": "High Cable Curls",
+    "matchType": "EQUIVALENT"
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer curl",
+    "day": "Day 5 · Arms + Delts",
+    "sets": 2,
+    "reps": "10-12",
+    "rest": 60,
+    "cue": "Use a neutral grip and keep your elbows still.",
+    "target": [
+      "biceps"
+    ],
+    "secondary": [],
+    "instructions": [
+      "Stand up with your torso upright and a dumbbell on each hand being held at arms length. The elbows should be close to the torso.",
+      "The palms of the hands should be facing your torso. This will be your starting position.",
+      "Now, while holding your upper arm stationary, exhale and curl the weight forward while contracting the biceps. Continue to raise the weight until the biceps are fully contracted and the dumbbell is at shoulder level. Hold the contracted position for a brief moment as you squeeze the biceps. Tip: Focus on keeping the elbow stationary and only moving your forearm.",
+      "After the brief pause, inhale and slowly begin the lower the dumbbells back down to the starting position.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "images": [
+      "images/hammer-curl/0.jpg",
+      "images/hammer-curl/1.jpg"
+    ],
+    "matchedName": "Hammer Curls",
+    "matchType": "EQUIVALENT"
   }
 ];

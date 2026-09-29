@@ -14,13 +14,11 @@ Open [http://localhost:8000](http://localhost:8000). A local HTTP server is requ
 
 ## Training plan
 
-The training week starts Saturday and follows the gym schedule: Push Saturday, Pull Sunday, Lower A Monday, recovery Tuesday, Upper + Arms Wednesday, Lower B + Core Thursday, and recovery Friday while the gym is closed. The plan spreads chest, back, and shoulder work across two upper sessions, separates the two lower sessions, and includes eight direct weekly sets each for biceps and triceps in addition to their work in compound lifts. Exercise selection, sets, rep ranges, rest times, and cues live in `data.js`.
+The training week starts Saturday and follows the gym schedule: Push Saturday, Pull Sunday, Legs Monday, recovery Tuesday, Upper + Arms Wednesday, Arms + Delts Thursday, and recovery Friday while the gym is closed. Legs stay on one focused weekly day as requested. The extra fifth session adds direct arm and delt work, while the Upper day gives chest and back a second weekly exposure. Supported rows and machine work limit avoidable lower-back loading; the Romanian deadlift stays light and controlled. The app repeats the sharp-pain reminder on pulling and lower-body exercises.
 
-Arabic exercise naming follows common gym usage in Arabic exercise catalogs such as [IronYou](https://www.ironyou.app/ar/rank-calculator/barbell-hip-thrust/) and [Alkemos](https://alkemos.com/ar/exercises/incline-dumbbell-press/); the canonical English variation stays beside each Arabic name to make searching and equipment matching easy.
+Your four-day draft had a solid Push, Pull, Legs, Upper foundation, but its Upper day was incomplete and legs only appeared once. The earlier app plan added a second leg day, which you asked to remove. This version keeps your preferred once-weekly leg schedule and adds a fifth specialization day. Weekly direct work is 10 sets for triceps and 12 for biceps, with additional work from presses and pulls. This is a general template; adjust volume if recovery or discomfort becomes an issue. ACSM’s 2026 position-stand overview suggests roughly 10 weekly sets per muscle group as a useful hypertrophy target for healthy adults. [ACSM overview](https://acsm.org/effective-resistance-training-program-infographic/)
 
-The RDL stays light and controlled. The app shows your back-discomfort reminder on every pulling and lower-body exercise. Stop if discomfort becomes sharp, and use a comfortable range of motion.
-
-This is a general muscle-building template, not a personalized clinical plan. ACSM’s 2026 position-stand overview describes roughly 10 weekly sets per muscle group as a useful hypertrophy target for healthy adults; the program spreads work across sessions for manageable workouts. [ACSM overview](https://acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf)
+Exercise selection, sets, rep ranges, rest times, and cues live in `data.js`; the matching list is in `scripts/fetch_images.py`.
 
 ## Exercise images and attribution
 

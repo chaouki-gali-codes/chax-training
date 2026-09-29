@@ -1,7 +1,7 @@
-const CACHE='chax-training-v16';
+const CACHE='chax-training-v18';
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const c=await caches.open(CACHE);
-  const statics=['./','./index.html','./styles.css','./app.js?v=16','./data.js','./manifest.webmanifest','./images/app-icon.svg','./images/app-icon-192.png','./images/app-icon-512.png'];
+  const statics=['./','./index.html','./styles.css','./app.js?v=18','./data.js','./manifest.webmanifest','./images/app-icon.svg','./images/app-icon-192.png','./images/app-icon-512.png'];
   const cacheOne=async path=>{const url=new URL(path,self.registration.scope).href;const response=await fetch(new Request(url,{cache:'reload'}));if(!response.ok)throw new Error(`Precache failed: ${path} (${response.status})`);await c.put(url,response)};
   for(let i=0;i<statics.length;i+=4)await Promise.all(statics.slice(i,i+4).map(cacheOne));
   const d=await fetch(new URL('./data.js',self.registration.scope),{cache:'reload'}).then(r=>{if(!r.ok)throw new Error('Exercise data could not be fetched');return r.text()});

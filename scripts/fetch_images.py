@@ -9,34 +9,45 @@ IMAGE_ROOT = 'https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/ex
 
 # Requested program, in order. Edit these names to change the routine.
 PROGRAM = [
-    ('Day 1 · Push', 'Dumbbell bench press', 3, '6-10', 150, 'Feet planted; shoulder blades set back and down; lower the dumbbells under control.'),
-    ('Day 1 · Push', 'Incline dumbbell press', 3, '8-12', 120, 'Use a 30-degree incline, keep elbows about 45 degrees from the torso, and lower toward the upper chest.'),
-    ('Day 1 · Push', 'Seated dumbbell shoulder press', 3, '8-10', 120, 'Keep your back supported and ribs down; stop before your lower back arches.'),
-    ('Day 1 · Push', 'Cable lateral raise', 3, '12-20', 60, 'Lead with the elbow and raise to shoulder height without swinging.'),
-    ('Day 1 · Push', 'Rope triceps pushdown', 4, '10-15', 60, 'Keep elbows still by your sides; separate the rope at the bottom.'),
-    ('Day 2 · Pull', 'Lat pulldown', 3, '8-12', 120, 'Use a shoulder-width overhand grip; bring the bar to your upper chest with a steady torso.'),
-    ('Day 2 · Pull', 'Chest-supported dumbbell row', 3, '8-12', 120, 'Keep your chest on the pad, lead with your elbows, and squeeze your shoulder blades.'),
-    ('Day 2 · Pull', 'Straight-arm cable pulldown', 2, '12-15', 90, 'Keep a soft elbow bend and sweep the bar toward your thighs.'),
-    ('Day 2 · Pull', 'Reverse pec deck', 3, '12-20', 60, 'Use a light load and lead the reverse fly with your elbows.'),
-    ('Day 2 · Pull', 'Hammer curl', 4, '10-15', 60, 'Keep a neutral grip and elbows still; avoid swinging.'),
-    ('Day 3 · Lower A', 'Leg press (quad stance)', 4, '8-12', 150, 'Use a controlled, comfortable depth and drive through the mid-foot; keep your back on the pad.'),
-    ('Day 3 · Lower A', 'Walking lunge (dumbbells)', 2, '8-10 per leg', 90, 'Take a controlled long stride, keep your torso upright, and use support if balance is uncertain.'),
-    ('Day 3 · Lower A', 'Leg extension', 3, '12-15', 90, 'Pause for one second at the top; lower the weight under control.'),
-    ('Day 3 · Lower A', 'Lying leg curl', 3, '10-15', 90, 'Keep your hips pressed into the pad and control the lowering phase.'),
-    ('Day 3 · Lower A', 'Standing calf raise', 4, '10-15', 60, 'Use a comfortable full stretch and pause briefly at the top.'),
-    ('Day 4 · Upper + Arms', 'Cable fly', 3, '10-15', 90, 'Keep a slight bend in your elbows and bring your hands together without shrugging.'),
-    ('Day 4 · Upper + Arms', 'Seated cable row', 3, '8-12', 120, 'Keep a neutral spine and pull the handle toward your lower ribs.'),
-    ('Day 4 · Upper + Arms', 'Assisted neutral-grip pull-up', 3, '6-10', 120, 'Start from a controlled hang and pull until your chin clears your hands; avoid swinging.'),
-    ('Day 4 · Upper + Arms', 'Dumbbell lateral raise', 2, '12-20', 60, 'Keep a slight elbow bend and raise to shoulder height without swinging.'),
-    ('Day 4 · Upper + Arms', 'Cable curl', 4, '10-15', 60, 'Keep your elbows pinned and your torso still; lower the handle slowly.'),
-    ('Day 4 · Upper + Arms', 'Overhead cable triceps extension', 4, '10-15', 60, 'Point elbows forward, allow a comfortable stretch, and extend without flaring the elbows.'),
-    ('Day 5 · Lower B + Core', 'Romanian deadlift (light, controlled)', 2, '8-10', 120, 'Keep this light; hinge at the hips with a neutral spine and stop around mid-shin or sooner if your back position changes.'),
-    ('Day 5 · Lower B + Core', 'Leg press (feet high and wide)', 3, '10-12', 120, 'Place feet high and wide; do not descend so far that your lower back rounds off the pad.'),
-    ('Day 5 · Lower B + Core', 'Hip thrust', 3, '8-12', 90, 'Keep your chin tucked, drive through your heels, and pause at the top.'),
-    ('Day 5 · Lower B + Core', 'Seated leg curl', 3, '10-15', 90, 'Set the pad just above your heels and control the return.'),
-    ('Day 5 · Lower B + Core', 'Seated calf raise', 4, '12-20', 60, 'Use a deep, comfortable stretch and pause at the top.'),
-    ('Day 5 · Lower B + Core', 'Cable crunch', 3, '12-15', 60, 'Round your spine toward your pelvis; keep your hips still.'),
-    ('Day 5 · Lower B + Core', 'Plank', 3, '45-60 sec', 60, 'Keep a straight line from head to hips with abs and glutes braced.'),
+    # Day 1: Push. Dumbbell variations keep the visual guide and make setup accessible.
+    ('Day 1 · Push', 'Incline dumbbell press', 3, '6-8', 150, 'Use a 30-degree incline; keep elbows about 45 degrees from the torso and lower toward the upper chest.'),
+    ('Day 1 · Push', 'Dumbbell bench press', 3, '8-10', 120, 'Set shoulder blades back and down; lower the dumbbells under control.'),
+    ('Day 1 · Push', 'Cable fly', 2, '12-15', 90, 'Keep a slight elbow bend and squeeze the chest without shrugging.'),
+    ('Day 1 · Push', 'Seated dumbbell shoulder press', 3, '6-10', 120, 'Keep your back supported and ribs down; stop before your lower back arches.'),
+    ('Day 1 · Push', 'Dumbbell lateral raise', 3, '12-15', 60, 'Keep a slight elbow bend and raise to shoulder height without swinging.'),
+    ('Day 1 · Push', 'Rope triceps pushdown', 3, '8-12', 60, 'Keep elbows still by your sides; separate the rope at the bottom.'),
+    ('Day 1 · Push', 'Overhead cable triceps extension', 2, '10-12', 60, 'Point elbows forward and allow a comfortable stretch; extend without flaring.'),
+
+    # Day 2: Pull. Supported rows reduce unnecessary lower-back loading.
+    ('Day 2 · Pull', 'Lat pulldown', 3, '6-10', 120, 'Use a shoulder-width overhand grip; bring the bar to your upper chest with a steady torso.'),
+    ('Day 2 · Pull', 'Chest-supported dumbbell row', 3, '8-10', 120, 'Keep your chest on the pad, lead with your elbows, and squeeze your shoulder blades.'),
+    ('Day 2 · Pull', 'Seated cable row', 2, '10-12', 120, 'Keep a neutral, comfortable spine and pull toward your lower ribs.'),
+    ('Day 2 · Pull', 'Reverse pec deck', 3, '12-15', 60, 'Use a light load and lead the reverse fly with your elbows.'),
+    ('Day 2 · Pull', 'Cable curl', 3, '8-10', 60, 'Keep your elbows pinned and torso still; lower the handle slowly.'),
+    ('Day 2 · Pull', 'Hammer curl', 2, '12-15', 60, 'Keep a neutral grip and elbows still; avoid swinging.'),
+
+    # Day 3: One balanced leg day, as requested. Keep the hinge light and controlled.
+    ('Day 3 · Legs', 'Leg press (quad stance)', 4, '8-10', 150, 'Use a controlled, comfortable depth and drive through the mid-foot; keep your back on the pad.'),
+    ('Day 3 · Legs', 'Romanian deadlift (light, controlled)', 2, '8-10', 120, 'Keep this light; hinge with a neutral spine and stop around mid-shin or sooner if your back position changes.'),
+    ('Day 3 · Legs', 'Walking lunge (dumbbells)', 3, '10 per leg', 90, 'Take a controlled stride, keep your torso upright, and use support if balance is uncertain.'),
+    ('Day 3 · Legs', 'Seated leg curl', 4, '10-15', 90, 'Set the pad just above your heels and control the return.'),
+    ('Day 3 · Legs', 'Leg extension', 2, '12-15', 90, 'Pause for one second at the top and lower under control.'),
+    ('Day 3 · Legs', 'Standing calf raise', 4, '10-15', 60, 'Use a comfortable full stretch and pause briefly at the top.'),
+    ('Day 3 · Legs', 'Cable crunch', 3, '12-15', 60, 'Round your spine toward your pelvis; keep your hips still.'),
+
+    # Day 4: Upper pump and second chest/back exposure.
+    ('Day 4 · Upper + Arms', 'Incline fly machine', 3, '12-15', 90, 'Keep a slight bend in your elbows and squeeze without shrugging.'),
+    ('Day 4 · Upper + Arms', 'Seated cable row', 3, '12', 120, 'Keep your spine neutral and pull toward your lower ribs.'),
+    ('Day 4 · Upper + Arms', 'Lat pulldown', 2, '10-12', 90, 'Use a comfortable grip and bring the bar to your upper chest without leaning back.'),
+    ('Day 4 · Upper + Arms', 'Dumbbell lateral raise', 3, '15-20', 60, 'Raise with control; use small partials only on the final set if form stays strict.'),
+    ('Day 4 · Upper + Arms', 'Overhead cable triceps extension', 3, '12-15', 60, 'Keep elbows forward and allow a comfortable stretch.'),
+    ('Day 4 · Upper + Arms', 'Cable curl', 3, '10-12', 60, 'Keep elbows pinned and avoid swinging.'),
+
+    # Day 5: Short arm/delt specialization session; Friday remains the closed day.
+    ('Day 5 · Arms + Delts', 'Cable lateral raise', 2, '15-20', 60, 'Lead with the elbow; use a controlled range and avoid leaning.'),
+    ('Day 5 · Arms + Delts', 'Rope triceps pushdown', 2, '12-15', 60, 'Keep elbows fixed and split the rope at the bottom.'),
+    ('Day 5 · Arms + Delts', 'Cable curl', 2, '12-15', 60, 'Keep elbows pinned and lower the handle slowly.'),
+    ('Day 5 · Arms + Delts', 'Hammer curl', 2, '10-12', 60, 'Use a neutral grip and keep your elbows still.'),
 ]
 
 # Manual map: requested exercise name -> exact dataset entry name. Keep editable.
@@ -44,7 +55,7 @@ OVERRIDES = {
     'Dumbbell bench press':'Dumbbell Bench Press',
     'Incline dumbbell press':'Incline Dumbbell Press',
     'Seated dumbbell shoulder press':'Seated Dumbbell Press',
-    'Cable lateral raise':'Side Laterals to Front Raise',
+    'Cable lateral raise':'Side Lateral Raise',
     'Rope triceps pushdown':'Triceps Pushdown - Rope Attachment',
     'Lat pulldown':'Wide-Grip Lat Pulldown',
     'Chest-supported dumbbell row':'Incline Bench Pull',
@@ -57,9 +68,10 @@ OVERRIDES = {
     'Lying leg curl':'Lying Leg Curls',
     'Standing calf raise':'Standing Calf Raises',
     'Cable fly':'Cable Crossover',
+    'Incline fly machine':'Incline Dumbbell Flyes',
     'Seated cable row':'Seated Cable Rows',
     'Assisted neutral-grip pull-up':'V-Bar Pullup',
-    'Dumbbell lateral raise':'Side Laterals to Front Raise',
+    'Dumbbell lateral raise':'Side Lateral Raise',
     'Cable curl':'High Cable Curls',
     'Overhead cable triceps extension':'Cable One Arm Tricep Extension',
     'Romanian deadlift (light, controlled)':'Romanian Deadlift',
@@ -128,7 +140,7 @@ def main():
             exercise=dict(id=slug,name=name,day=day,sets=sets,reps=reps,rest=rest,cue=cue,target=found.get('primaryMuscles',[]),secondary=found.get('secondaryMuscles',[]),instructions=found.get('instructions',[]),images=images,matchedName=found['name'],matchType=match_type)
             if name == 'Plank': exercise['weightless']=True
             if name.startswith('Romanian deadlift'): exercise['limitedLoad']=True
-            if day in {'Day 2 · Pull','Day 3 · Lower A','Day 5 · Lower B + Core'} or set(exercise['target']) & {'lats','middle back','lower back','quadriceps','hamstrings','glutes'}:
+            if day in {'Day 2 · Pull','Day 3 · Legs'} or set(exercise['target']) & {'lats','middle back','lower back','quadriceps','hamstrings','glutes'}:
                 exercise['backCaution']=True
             out.append(exercise)
         else:
