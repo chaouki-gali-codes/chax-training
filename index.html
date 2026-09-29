@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111214"><meta name="description" content="Offline workout companion for your 5-day strength program">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+  <title>Chax Training</title>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#" onclick="showHome();return false"><span class="brand-mark">C</span><span>CHAX<span class="muted"> / TRAINING</span></span></a><div class="top-actions"><button class="icon-btn" aria-label="Toggle theme" onclick="toggleTheme()">◐</button><button class="icon-btn" aria-label="Settings" onclick="openSettings()">⚙</button></div></header>
+  <main id="app" aria-live="polite"></main>
+  <nav class="bottom-nav" aria-label="Main navigation"><button class="active" onclick="showHome()"><span>⌂</span>Today</button><button onclick="showHistory()"><span>▥</span>Progress</button><button onclick="openSettings()"><span>⚙</span>Settings</button></nav>
+  <div id="overlay"></div><div id="toast" role="status"></div>
+  <footer>Exercise photos & instructions: <a href="https://github.com/yuhonas/free-exercise-db" target="_blank" rel="noreferrer">free-exercise-db</a> · Public domain dataset</footer>
+  <script src="data.js"></script><script src="app.js?v=9"></script>
+</body></html>
