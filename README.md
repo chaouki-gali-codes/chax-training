@@ -14,7 +14,7 @@ Open [http://localhost:8000](http://localhost:8000). A local HTTP server is requ
 
 ## Training plan
 
-The balanced five-session week follows Push / Pull / Lower A / Upper / Lower B + Core, with rest and light walking on Wednesday and Sunday. Push and Upper spread chest and shoulder work through the week; Pull uses a chest-supported row; the two lower sessions split quad and posterior-chain work. The exact exercises, sets, rep ranges, rest times, and cues live in `data.js`.
+The five training days fit the gym's opening schedule: Push Monday, Pull Tuesday, Lower A Wednesday, Upper Thursday, rest Friday, Lower B + Core Saturday, and rest Sunday. Push and Upper spread chest and shoulder work through the week; Pull uses a chest-supported row; the two lower sessions split quad and posterior-chain work. The exact exercises, sets, rep ranges, rest times, and cues live in `data.js`.
 
 The RDL stays light and controlled. The app shows your back-discomfort reminder on every pulling and lower-body exercise. Stop if discomfort becomes sharp, and use a comfortable range of motion.
 
@@ -47,7 +47,7 @@ The downloaded JSON index and images are served from the repository's raw GitHub
 - Guided exercise screens with two bundled start/end images, instructions, cues, set logging, last-session values, rest timer, and form search.
 - Workout overview, exercise swaps, swipe navigation, Wake Lock where supported, and timestamp-based countdowns.
 - Local session history, per-exercise top-set chart, bodyweight log, JSON export/import, and reset.
-- English/French preference, dark/light/system theme, sound/vibration/auto-start controls, warm-up checklist, recovery day checklist, and progression reminder.
+- English/Arabic language preference with right-to-left Arabic layout, dark/light/system theme, sound/vibration/auto-start controls, warm-up checklist, recovery day checklist, and progression reminder.
 - All personal data is stored in localStorage with guarded reads and writes. Export a backup before clearing browser data.
 
 ## Deploy for free with GitHub Pages
