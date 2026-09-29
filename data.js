@@ -285,7 +285,7 @@ window.WORKOUT_DATA = [
   {
     "id": "leg-press-quad-stance",
     "name": "Leg press (quad stance)",
-    "day": "Day 4 · Lower A",
+    "day": "Day 3 · Lower A",
     "sets": 4,
     "reps": "8-12",
     "rest": 150,
@@ -315,7 +315,7 @@ window.WORKOUT_DATA = [
   {
     "id": "walking-lunge-dumbbells",
     "name": "Walking lunge (dumbbells)",
-    "day": "Day 4 · Lower A",
+    "day": "Day 3 · Lower A",
     "sets": 3,
     "reps": "8-10 per leg",
     "rest": 90,
@@ -344,7 +344,7 @@ window.WORKOUT_DATA = [
   {
     "id": "leg-extension",
     "name": "Leg extension",
-    "day": "Day 4 · Lower A",
+    "day": "Day 3 · Lower A",
     "sets": 3,
     "reps": "10-15",
     "rest": 75,
@@ -369,7 +369,7 @@ window.WORKOUT_DATA = [
   {
     "id": "lying-leg-curl",
     "name": "Lying leg curl",
-    "day": "Day 4 · Lower A",
+    "day": "Day 3 · Lower A",
     "sets": 3,
     "reps": "10-15",
     "rest": 75,
@@ -394,7 +394,7 @@ window.WORKOUT_DATA = [
   {
     "id": "standing-calf-raise",
     "name": "Standing calf raise",
-    "day": "Day 4 · Lower A",
+    "day": "Day 3 · Lower A",
     "sets": 3,
     "reps": "10-15",
     "rest": 60,
@@ -420,7 +420,7 @@ window.WORKOUT_DATA = [
   {
     "id": "cable-fly",
     "name": "Cable fly",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 3,
     "reps": "10-15",
     "rest": 75,
@@ -448,7 +448,7 @@ window.WORKOUT_DATA = [
   {
     "id": "seated-cable-row",
     "name": "Seated cable row",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 3,
     "reps": "8-12",
     "rest": 120,
@@ -478,7 +478,7 @@ window.WORKOUT_DATA = [
   {
     "id": "assisted-neutral-grip-pull-up",
     "name": "Assisted neutral-grip pull-up",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 3,
     "reps": "6-10",
     "rest": 120,
@@ -508,7 +508,7 @@ window.WORKOUT_DATA = [
   {
     "id": "dumbbell-lateral-raise",
     "name": "Dumbbell lateral raise",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 3,
     "reps": "12-20",
     "rest": 60,
@@ -537,7 +537,7 @@ window.WORKOUT_DATA = [
   {
     "id": "cable-curl",
     "name": "Cable curl",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 2,
     "reps": "10-15",
     "rest": 60,
@@ -562,7 +562,7 @@ window.WORKOUT_DATA = [
   {
     "id": "overhead-cable-triceps-extension",
     "name": "Overhead cable triceps extension",
-    "day": "Day 5 · Upper",
+    "day": "Day 4 · Upper",
     "sets": 2,
     "reps": "10-15",
     "rest": 60,
@@ -589,7 +589,7 @@ window.WORKOUT_DATA = [
   {
     "id": "romanian-deadlift-light-controlled",
     "name": "Romanian deadlift (light, controlled)",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 2,
     "reps": "8-10",
     "rest": 120,
@@ -620,7 +620,7 @@ window.WORKOUT_DATA = [
   {
     "id": "leg-press-feet-high-and-wide",
     "name": "Leg press (feet high and wide)",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "10-15",
     "rest": 120,
@@ -650,7 +650,7 @@ window.WORKOUT_DATA = [
   {
     "id": "hip-thrust",
     "name": "Hip thrust",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "8-12",
     "rest": 90,
@@ -677,7 +677,7 @@ window.WORKOUT_DATA = [
   {
     "id": "seated-leg-curl",
     "name": "Seated leg curl",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "10-15",
     "rest": 75,
@@ -703,7 +703,7 @@ window.WORKOUT_DATA = [
   {
     "id": "seated-calf-raise",
     "name": "Seated calf raise",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "12-20",
     "rest": 60,
@@ -730,7 +730,7 @@ window.WORKOUT_DATA = [
   {
     "id": "cable-crunch",
     "name": "Cable crunch",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "10-15",
     "rest": 60,
@@ -757,7 +757,7 @@ window.WORKOUT_DATA = [
   {
     "id": "plank",
     "name": "Plank",
-    "day": "Day 6 · Lower B + Core",
+    "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "30-45 sec",
     "rest": 60,
