@@ -5,8 +5,8 @@ window.WORKOUT_DATA = [
     "day": "Day 1 · Push",
     "sets": 3,
     "reps": "6-10",
-    "rest": 120,
-    "cue": "Feet planted, shoulder blades back and down, lower under control.",
+    "rest": 150,
+    "cue": "Feet planted; shoulder blades set back and down; lower the dumbbells under control.",
     "target": [
       "chest"
     ],
@@ -26,7 +26,8 @@ window.WORKOUT_DATA = [
       "images/machine-chest-press/1.jpg"
     ],
     "matchedName": "Dumbbell Bench Press",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "incline-dumbbell-press",
@@ -35,7 +36,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "8-12",
     "rest": 120,
-    "cue": "Low incline, wrists stacked, lower toward the upper chest.",
+    "cue": "Use a 30-degree incline, keep elbows about 45 degrees from the torso, and lower toward the upper chest.",
     "target": [
       "chest"
     ],
@@ -57,16 +58,17 @@ window.WORKOUT_DATA = [
       "images/incline-dumbbell-press/1.jpg"
     ],
     "matchedName": "Incline Dumbbell Press",
-    "matchType": "MATCHED"
+    "matchType": "MATCHED",
+    "backCaution": false
   },
   {
     "id": "seated-dumbbell-shoulder-press",
     "name": "Seated dumbbell shoulder press",
     "day": "Day 1 · Push",
-    "sets": 2,
-    "reps": "8-12",
+    "sets": 3,
+    "reps": "8-10",
     "rest": 120,
-    "cue": "Back supported, ribs down, stop before arching.",
+    "cue": "Keep your back supported and ribs down; stop before your lower back arches.",
     "target": [
       "shoulders"
     ],
@@ -86,7 +88,8 @@ window.WORKOUT_DATA = [
       "images/seated-dumbbell-shoulder-press/1.jpg"
     ],
     "matchedName": "Seated Dumbbell Press",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "cable-lateral-raise",
@@ -95,7 +98,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "12-20",
     "rest": 60,
-    "cue": "Lead with the elbow and raise only to a comfortable shoulder height.",
+    "cue": "Lead with the elbow and raise to shoulder height without swinging.",
     "target": [
       "shoulders"
     ],
@@ -115,16 +118,17 @@ window.WORKOUT_DATA = [
       "images/cable-lateral-raise/1.jpg"
     ],
     "matchedName": "Side Laterals to Front Raise",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "rope-triceps-pushdown",
     "name": "Rope triceps pushdown",
     "day": "Day 1 · Push",
-    "sets": 3,
+    "sets": 4,
     "reps": "10-15",
     "rest": 60,
-    "cue": "Keep elbows still and separate the rope at the bottom.",
+    "cue": "Keep elbows still by your sides; separate the rope at the bottom.",
     "target": [
       "triceps"
     ],
@@ -141,7 +145,8 @@ window.WORKOUT_DATA = [
       "images/rope-triceps-pushdown/1.jpg"
     ],
     "matchedName": "Triceps Pushdown - Rope Attachment",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "lat-pulldown",
@@ -150,7 +155,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "8-12",
     "rest": 120,
-    "cue": "Use a comfortable shoulder-width grip; bring the bar to the upper chest.",
+    "cue": "Use a shoulder-width overhand grip; bring the bar to your upper chest with a steady torso.",
     "target": [
       "lats"
     ],
@@ -172,7 +177,8 @@ window.WORKOUT_DATA = [
       "images/lat-pulldown/1.jpg"
     ],
     "matchedName": "Wide-Grip Lat Pulldown",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "chest-supported-dumbbell-row",
@@ -181,7 +187,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "8-12",
     "rest": 120,
-    "cue": "Keep your chest on the pad; pull elbows back and squeeze the shoulder blades.",
+    "cue": "Keep your chest on the pad, lead with your elbows, and squeeze your shoulder blades.",
     "target": [
       "middle back"
     ],
@@ -203,7 +209,8 @@ window.WORKOUT_DATA = [
       "images/chest-supported-dumbbell-row/1.jpg"
     ],
     "matchedName": "Incline Bench Pull",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "straight-arm-cable-pulldown",
@@ -211,7 +218,7 @@ window.WORKOUT_DATA = [
     "day": "Day 2 · Pull",
     "sets": 2,
     "reps": "12-15",
-    "rest": 75,
+    "rest": 90,
     "cue": "Keep a soft elbow bend and sweep the bar toward your thighs.",
     "target": [
       "lats"
@@ -229,7 +236,8 @@ window.WORKOUT_DATA = [
       "images/straight-arm-cable-pulldown/1.jpg"
     ],
     "matchedName": "Straight-Arm Pulldown",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "reverse-pec-deck",
@@ -238,7 +246,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "12-20",
     "rest": 60,
-    "cue": "Use a light load and lead with the elbows.",
+    "cue": "Use a light load and lead the reverse fly with your elbows.",
     "target": [
       "shoulders"
     ],
@@ -254,16 +262,17 @@ window.WORKOUT_DATA = [
       "images/reverse-pec-deck/1.jpg"
     ],
     "matchedName": "Reverse Machine Flyes",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "hammer-curl",
     "name": "Hammer curl",
     "day": "Day 2 · Pull",
-    "sets": 3,
+    "sets": 4,
     "reps": "10-15",
     "rest": 60,
-    "cue": "Keep a neutral grip and your elbows still.",
+    "cue": "Keep a neutral grip and elbows still; avoid swinging.",
     "target": [
       "biceps"
     ],
@@ -280,7 +289,8 @@ window.WORKOUT_DATA = [
       "images/hammer-curl/1.jpg"
     ],
     "matchedName": "Hammer Curls",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "leg-press-quad-stance",
@@ -289,7 +299,7 @@ window.WORKOUT_DATA = [
     "sets": 4,
     "reps": "8-12",
     "rest": 150,
-    "cue": "Use a comfortable depth; keep your lower back supported against the pad.",
+    "cue": "Use a controlled, comfortable depth and drive through the mid-foot; keep your back on the pad.",
     "target": [
       "quadriceps"
     ],
@@ -310,16 +320,17 @@ window.WORKOUT_DATA = [
       "images/hack-squat/1.jpg"
     ],
     "matchedName": "Leg Press",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "walking-lunge-dumbbells",
     "name": "Walking lunge (dumbbells)",
     "day": "Day 3 · Lower A",
-    "sets": 3,
+    "sets": 2,
     "reps": "8-10 per leg",
     "rest": 90,
-    "cue": "Take a controlled stride, stay tall, and use support if balance is uncertain.",
+    "cue": "Take a controlled long stride, keep your torso upright, and use support if balance is uncertain.",
     "target": [
       "quadriceps"
     ],
@@ -339,16 +350,17 @@ window.WORKOUT_DATA = [
       "images/walking-lunges-dumbbells/1.jpg"
     ],
     "matchedName": "Barbell Walking Lunge",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "leg-extension",
     "name": "Leg extension",
     "day": "Day 3 · Lower A",
     "sets": 3,
-    "reps": "10-15",
-    "rest": 75,
-    "cue": "Pause briefly at the top and lower under control.",
+    "reps": "12-15",
+    "rest": 90,
+    "cue": "Pause for one second at the top; lower the weight under control.",
     "target": [
       "quadriceps"
     ],
@@ -364,7 +376,8 @@ window.WORKOUT_DATA = [
       "images/leg-extension/1.jpg"
     ],
     "matchedName": "Leg Extensions",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "lying-leg-curl",
@@ -372,8 +385,8 @@ window.WORKOUT_DATA = [
     "day": "Day 3 · Lower A",
     "sets": 3,
     "reps": "10-15",
-    "rest": 75,
-    "cue": "Keep hips pressed into the pad and lower slowly.",
+    "rest": 90,
+    "cue": "Keep your hips pressed into the pad and control the lowering phase.",
     "target": [
       "hamstrings"
     ],
@@ -389,16 +402,17 @@ window.WORKOUT_DATA = [
       "images/lying-leg-curl/1.jpg"
     ],
     "matchedName": "Lying Leg Curls",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "standing-calf-raise",
     "name": "Standing calf raise",
     "day": "Day 3 · Lower A",
-    "sets": 3,
+    "sets": 4,
     "reps": "10-15",
     "rest": 60,
-    "cue": "Use a full comfortable stretch and pause at the top.",
+    "cue": "Use a comfortable full stretch and pause briefly at the top.",
     "target": [
       "calves"
     ],
@@ -415,16 +429,17 @@ window.WORKOUT_DATA = [
       "images/standing-calf-raise/1.jpg"
     ],
     "matchedName": "Standing Calf Raises",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "cable-fly",
     "name": "Cable fly",
-    "day": "Day 4 · Upper",
+    "day": "Day 4 · Upper + Arms",
     "sets": 3,
     "reps": "10-15",
-    "rest": 75,
-    "cue": "Keep a soft elbow bend and bring the hands together without shrugging.",
+    "rest": 90,
+    "cue": "Keep a slight bend in your elbows and bring your hands together without shrugging.",
     "target": [
       "chest"
     ],
@@ -443,16 +458,17 @@ window.WORKOUT_DATA = [
       "images/pec-deck/1.jpg"
     ],
     "matchedName": "Cable Crossover",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "seated-cable-row",
     "name": "Seated cable row",
-    "day": "Day 4 · Upper",
+    "day": "Day 4 · Upper + Arms",
     "sets": 3,
     "reps": "8-12",
     "rest": 120,
-    "cue": "Stay tall and still; pull the handle toward your lower ribs.",
+    "cue": "Keep a neutral spine and pull the handle toward your lower ribs.",
     "target": [
       "middle back"
     ],
@@ -473,16 +489,17 @@ window.WORKOUT_DATA = [
       "images/chest-supported-t-bar-row/1.jpg"
     ],
     "matchedName": "Seated Cable Rows",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "assisted-neutral-grip-pull-up",
     "name": "Assisted neutral-grip pull-up",
-    "day": "Day 4 · Upper",
+    "day": "Day 4 · Upper + Arms",
     "sets": 3,
     "reps": "6-10",
     "rest": 120,
-    "cue": "Start from a comfortable hang and pull without swinging.",
+    "cue": "Start from a controlled hang and pull until your chin clears your hands; avoid swinging.",
     "target": [
       "lats"
     ],
@@ -503,16 +520,17 @@ window.WORKOUT_DATA = [
       "images/neutral-grip-pull-up/1.jpg"
     ],
     "matchedName": "V-Bar Pullup",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "dumbbell-lateral-raise",
     "name": "Dumbbell lateral raise",
-    "day": "Day 4 · Upper",
-    "sets": 3,
+    "day": "Day 4 · Upper + Arms",
+    "sets": 2,
     "reps": "12-20",
     "rest": 60,
-    "cue": "Use a slight elbow bend; stop around shoulder height.",
+    "cue": "Keep a slight elbow bend and raise to shoulder height without swinging.",
     "target": [
       "shoulders"
     ],
@@ -532,16 +550,17 @@ window.WORKOUT_DATA = [
       "images/dumbbell-lateral-raise/1.jpg"
     ],
     "matchedName": "Side Laterals to Front Raise",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "cable-curl",
     "name": "Cable curl",
-    "day": "Day 4 · Upper",
-    "sets": 2,
+    "day": "Day 4 · Upper + Arms",
+    "sets": 4,
     "reps": "10-15",
     "rest": 60,
-    "cue": "Keep elbows pinned and avoid swinging.",
+    "cue": "Keep your elbows pinned and your torso still; lower the handle slowly.",
     "target": [
       "biceps"
     ],
@@ -557,16 +576,17 @@ window.WORKOUT_DATA = [
       "images/cable-curl/1.jpg"
     ],
     "matchedName": "High Cable Curls",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "overhead-cable-triceps-extension",
     "name": "Overhead cable triceps extension",
-    "day": "Day 4 · Upper",
-    "sets": 2,
+    "day": "Day 4 · Upper + Arms",
+    "sets": 4,
     "reps": "10-15",
     "rest": 60,
-    "cue": "Keep elbows pointed forward and use a comfortable stretch.",
+    "cue": "Point elbows forward, allow a comfortable stretch, and extend without flaring the elbows.",
     "target": [
       "triceps"
     ],
@@ -584,7 +604,8 @@ window.WORKOUT_DATA = [
       "images/overhead-cable-triceps-extension/1.jpg"
     ],
     "matchedName": "Cable One Arm Tricep Extension",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": false
   },
   {
     "id": "romanian-deadlift-light-controlled",
@@ -593,7 +614,7 @@ window.WORKOUT_DATA = [
     "sets": 2,
     "reps": "8-10",
     "rest": 120,
-    "cue": "Keep it light; hinge only through a comfortable range and stop around mid-shin.",
+    "cue": "Keep this light; hinge at the hips with a neutral spine and stop around mid-shin or sooner if your back position changes.",
     "target": [
       "hamstrings"
     ],
@@ -615,16 +636,17 @@ window.WORKOUT_DATA = [
     ],
     "matchedName": "Romanian Deadlift",
     "matchType": "EQUIVALENT",
-    "limitedLoad": true
+    "limitedLoad": true,
+    "backCaution": true
   },
   {
     "id": "leg-press-feet-high-and-wide",
     "name": "Leg press (feet high and wide)",
     "day": "Day 5 · Lower B + Core",
     "sets": 3,
-    "reps": "10-15",
+    "reps": "10-12",
     "rest": 120,
-    "cue": "Keep your lower back against the pad; use a comfortable range.",
+    "cue": "Place feet high and wide; do not descend so far that your lower back rounds off the pad.",
     "target": [
       "quadriceps"
     ],
@@ -645,7 +667,8 @@ window.WORKOUT_DATA = [
       "images/leg-press-feet-high-and-wide/1.jpg"
     ],
     "matchedName": "Leg Press",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "hip-thrust",
@@ -654,7 +677,7 @@ window.WORKOUT_DATA = [
     "sets": 3,
     "reps": "8-12",
     "rest": 90,
-    "cue": "Keep your chin tucked, drive through the feet, and pause at the top.",
+    "cue": "Keep your chin tucked, drive through your heels, and pause at the top.",
     "target": [
       "glutes"
     ],
@@ -672,7 +695,8 @@ window.WORKOUT_DATA = [
       "images/hip-thrust/1.jpg"
     ],
     "matchedName": "Barbell Hip Thrust",
-    "matchType": "EQUIVALENT"
+    "matchType": "EQUIVALENT",
+    "backCaution": true
   },
   {
     "id": "seated-leg-curl",
@@ -680,8 +704,8 @@ window.WORKOUT_DATA = [
     "day": "Day 5 · Lower B + Core",
     "sets": 3,
     "reps": "10-15",
-    "rest": 75,
-    "cue": "Set the pad snugly above your heels and lower with control.",
+    "rest": 90,
+    "cue": "Set the pad just above your heels and control the return.",
     "target": [
       "hamstrings"
     ],
@@ -698,16 +722,17 @@ window.WORKOUT_DATA = [
       "images/seated-leg-curl/1.jpg"
     ],
     "matchedName": "Seated Leg Curl",
-    "matchType": "MATCHED"
+    "matchType": "MATCHED",
+    "backCaution": true
   },
   {
     "id": "seated-calf-raise",
     "name": "Seated calf raise",
     "day": "Day 5 · Lower B + Core",
-    "sets": 3,
+    "sets": 4,
     "reps": "12-20",
     "rest": 60,
-    "cue": "Use a deep comfortable stretch and pause at the top.",
+    "cue": "Use a deep, comfortable stretch and pause at the top.",
     "target": [
       "calves"
     ],
@@ -725,16 +750,17 @@ window.WORKOUT_DATA = [
       "images/seated-calf-raise/1.jpg"
     ],
     "matchedName": "Seated Calf Raise",
-    "matchType": "MATCHED"
+    "matchType": "MATCHED",
+    "backCaution": true
   },
   {
     "id": "cable-crunch",
     "name": "Cable crunch",
     "day": "Day 5 · Lower B + Core",
     "sets": 3,
-    "reps": "10-15",
+    "reps": "12-15",
     "rest": 60,
-    "cue": "Curl the ribs toward the pelvis; keep the hips still.",
+    "cue": "Round your spine toward your pelvis; keep your hips still.",
     "target": [
       "abdominals"
     ],
@@ -752,16 +778,17 @@ window.WORKOUT_DATA = [
       "images/cable-crunch/1.jpg"
     ],
     "matchedName": "Cable Crunch",
-    "matchType": "MATCHED"
+    "matchType": "MATCHED",
+    "backCaution": true
   },
   {
     "id": "plank",
     "name": "Plank",
     "day": "Day 5 · Lower B + Core",
     "sets": 3,
-    "reps": "30-45 sec",
+    "reps": "45-60 sec",
     "rest": 60,
-    "cue": "Hold a straight line and keep the glutes and abs gently braced.",
+    "cue": "Keep a straight line from head to hips with abs and glutes braced.",
     "target": [
       "abdominals"
     ],
@@ -776,6 +803,7 @@ window.WORKOUT_DATA = [
     ],
     "matchedName": "Plank",
     "matchType": "MATCHED",
-    "weightless": true
+    "weightless": true,
+    "backCaution": true
   }
 ];

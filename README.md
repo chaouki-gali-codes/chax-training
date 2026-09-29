@@ -14,7 +14,7 @@ Open [http://localhost:8000](http://localhost:8000). A local HTTP server is requ
 
 ## Training plan
 
-The week runs Saturday through Friday: Push Saturday, Pull Sunday, Lower A Monday, Upper Tuesday, recovery Wednesday, Lower B + Core Thursday, and recovery Friday. The gym is closed Friday. Push and Upper spread chest and shoulder work through the week; Pull uses a chest-supported row; the two lower sessions split quad and posterior-chain work. The exact exercises, sets, rep ranges, rest times, and cues live in `data.js`.
+The training week starts Saturday and follows the gym schedule: Push Saturday, Pull Sunday, Lower A Monday, recovery Tuesday, Upper + Arms Wednesday, Lower B + Core Thursday, and recovery Friday while the gym is closed. The plan spreads chest, back, and shoulder work across two upper sessions, separates the two lower sessions, and includes eight direct weekly sets each for biceps and triceps in addition to their work in compound lifts. Exercise selection, sets, rep ranges, rest times, and cues live in `data.js`.
 
 Arabic exercise naming follows common gym usage in Arabic exercise catalogs such as [IronYou](https://www.ironyou.app/ar/rank-calculator/barbell-hip-thrust/) and [Alkemos](https://alkemos.com/ar/exercises/incline-dumbbell-press/); the canonical English variation stays beside each Arabic name to make searching and equipment matching easy.
 
