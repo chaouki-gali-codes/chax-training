@@ -1,6 +1,6 @@
 # Chax Training
 
-A mobile-first, offline-capable workout log for the included seven-day schedule. It is plain HTML, CSS, and vanilla JavaScript with no build step.
+A mobile-first, offline-capable muscle-building plan and workout log by Chaouki Gali. It is plain HTML, CSS, and vanilla JavaScript with no build step.
 
 ## Run locally
 
@@ -11,6 +11,14 @@ python3 -m http.server 8000
 ```
 
 Open [http://localhost:8000](http://localhost:8000). A local HTTP server is required for the service worker; opening `index.html` directly from disk will not enable offline caching or installability.
+
+## Training plan
+
+The balanced five-session week follows Push / Pull / Lower A / Upper / Lower B + Core, with rest and light walking on Wednesday and Sunday. Push and Upper spread chest and shoulder work through the week; Pull uses a chest-supported row; the two lower sessions split quad and posterior-chain work. The exact exercises, sets, rep ranges, rest times, and cues live in `data.js`.
+
+The RDL stays light and controlled. The app shows your back-discomfort reminder on every pulling and lower-body exercise. Stop if discomfort becomes sharp, and use a comfortable range of motion.
+
+This is a general muscle-building template, not a personalized clinical plan. ACSM’s 2026 position-stand overview describes roughly 10 weekly sets per muscle group as a useful hypertrophy target for healthy adults; the program spreads work across sessions for manageable workouts. [ACSM overview](https://acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf)
 
 ## Exercise images and attribution
 
@@ -28,7 +36,7 @@ Edit `OVERRIDES` near the top of `scripts/fetch_images.py` to map a requested ex
 
 ```python
 OVERRIDES = {
-    'Hack squat': 'Leg Press',
+    'Leg press (quad stance)': 'Leg Press',
 }
 ```
 
