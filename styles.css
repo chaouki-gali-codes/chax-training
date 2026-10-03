@@ -38,3 +38,27 @@ html{scroll-behavior:smooth}body{min-height:100vh;padding-top:var(--safe-top);ov
 .record-row:last-child{border-bottom:0}
 .record-row>span{text-align:right;white-space:nowrap}
 .insight-card .stats{margin-top:12px}
+
+.checkin-card{margin-top:0}
+.checkin-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}
+.checkin-results span{display:grid;gap:4px;padding:11px;border:1px solid var(--line);border-radius:12px;color:var(--muted);font-size:13px}
+.checkin-results b{color:var(--text);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.checkin-note{white-space:pre-wrap;overflow-wrap:anywhere}
+.checkin-history{margin:14px 0 0;color:var(--muted);font-size:13px}
+.checkin-history summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--text)}
+.checkin-history-row{display:flex;justify-content:space-between;gap:10px;padding:9px 0;border-top:1px solid var(--line)}
+.weekly-checkin-form>label{display:grid;gap:7px;margin:15px 0;color:var(--text);font-size:13px}
+.weekly-checkin-form input,.weekly-checkin-form select,.weekly-checkin-form textarea{width:100%;min-height:48px;border:1px solid var(--line);border-radius:11px;background:var(--panel2);color:var(--text);padding:10px 12px;font:inherit}
+.weekly-checkin-form textarea{min-height:86px;resize:vertical}
+.field-unit{color:var(--muted);font-size:11px}
+.chart-head{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:end}
+.chart-head>div{grid-column:1/-1}
+.chart-head h2{margin:0}
+.chart-head p{margin:5px 0 0}
+.chart-picker{display:grid;gap:5px;color:var(--muted);font-size:11px;font-weight:700}
+.chart-picker select{width:100%;min-height:46px;min-width:0;border:1px solid var(--line);border-radius:10px;background:var(--panel2);color:var(--text);padding:8px;font:inherit;font-size:12px}
+.progress-chart{height:220px}
+.chart-summary{margin-top:8px;padding:13px;border-radius:12px;background:color-mix(in srgb,var(--accent) 10%,var(--panel2));color:var(--text);font-size:13px;line-height:1.5}
+.chart-summary b{color:var(--accent2)}
+.chart-caption{display:block;margin-top:8px;font-size:11px}
+@media(max-width:380px){.checkin-results{grid-template-columns:1fr}.chart-head{gap:7px}.chart-picker select{font-size:11px;padding-inline:6px}}

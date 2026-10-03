@@ -48,7 +48,8 @@ The downloaded JSON index and images are served from the repository's raw GitHub
 
 - Guided exercise screens with two bundled start/end images, instructions, cues, set logging, last-session values, rest timer, and form search.
 - Workout overview, exercise swaps, swipe navigation, Wake Lock where supported, and timestamp-based countdowns.
-- Training insights: weekly session count, completed-set total, recent session duration, personal records, top-set charts, muscle-volume estimate, and bodyweight trend.
+- Training insights: weekly session count, completed-set total, recent session duration, personal records, muscle-volume estimate, and bodyweight trend. Per-exercise charts track best-set load or reps over time and offer a conservative next-session progression cue.
+- Weekly check-in for bodyweight, sleep, energy, back symptoms, and an optional note. It starts on Saturday, can be edited for the current week, and adds a logged weight to the bodyweight trend. Check-ins are included in JSON backups.
 - Edit, add, remove, and replace workout movements in Settings; edit sets, reps, rest, and cues.
 - Local session history, session review, JSON backup/restore, reminder, and reset.
 - English/Arabic language preference with familiar Arabic gym exercise names, the canonical English exercise name alongside each one, Arabic coaching cues, and muscle terminology in a right-to-left layout. It also includes dark/light/system theme, sound/vibration/auto-start controls, warm-up and recovery checklists, and progression reminders.
