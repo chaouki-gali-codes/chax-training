@@ -14,11 +14,11 @@ Open [http://localhost:8000](http://localhost:8000). A local HTTP server is requ
 
 ## Training plan
 
-The training week starts Saturday and follows the gym schedule: Push Saturday, Pull Sunday, Legs Monday, recovery Tuesday, Upper + Arms Wednesday, Arms + Delts Thursday, and recovery Friday while the gym is closed. Legs stay on one focused weekly day as requested. The extra fifth session adds direct arm and delt work, while the Upper day gives chest and back a second weekly exposure. Supported rows and machine work limit avoidable lower-back loading; the Romanian deadlift stays light and controlled. The app repeats the sharp-pain reminder on pulling and lower-body exercises.
+The plan follows your Push, Pull, Legs, Upper routine, with one focused leg day and a fifth Arms + Delts session. The default week starts Saturday: Push Saturday, Pull Sunday, Legs Monday, Arms + Delts Tuesday, recovery Wednesday, Upper Thursday, and recovery Friday while the gym is closed. You can move workouts to any open day in Settings. Your upper-day exercise list stays as you sent it. The Romanian deadlift stays light and controlled; the app repeats your sharp-pain reminder on pulling and lower-body exercises.
 
-Your four-day draft had a solid Push, Pull, Legs, Upper foundation, but its Upper day was incomplete and legs only appeared once. The earlier app plan added a second leg day, which you asked to remove. This version keeps your preferred once-weekly leg schedule and adds a fifth specialization day. Weekly direct work is 10 sets for triceps and 12 for biceps, with additional work from presses and pulls. This is a general template; adjust volume if recovery or discomfort becomes an issue. ACSM’s 2026 position-stand overview suggests roughly 10 weekly sets per muscle group as a useful hypertrophy target for healthy adults. [ACSM overview](https://acsm.org/effective-resistance-training-program-infographic/)
+Your plan keeps direct arm work on Push and Pull and adds another short Arms + Delts workout. Adjust training volume if your recovery or back discomfort worsens; the app is a tracking tool, not medical advice.
 
-Exercise selection, sets, rep ranges, rest times, and cues live in `data.js`; the matching list is in `scripts/fetch_images.py`.
+Exercise names, sets, rep ranges, rest times, cues, and photo matches live in `data.js` and `scripts/fetch_images.py`. You can edit or replace movements from Settings → Edit workouts; those changes stay in local storage and are included in exported backups.
 
 ## Exercise images and attribution
 
@@ -36,9 +36,11 @@ Edit `OVERRIDES` near the top of `scripts/fetch_images.py` to map a requested ex
 
 ```python
 OVERRIDES = {
-    'Leg press (quad stance)': 'Leg Press',
+    'Hack squat or barbell squat': 'Hack Squat',
 }
 ```
+
+The script also downloads the 36 exact-variant entries used by the movement picker, so replacement photos are bundled locally too.
 
 The downloaded JSON index and images are served from the repository's raw GitHub URLs by the script. The entire app and images are cached on first load by `sw.js`.
 
@@ -46,7 +48,9 @@ The downloaded JSON index and images are served from the repository's raw GitHub
 
 - Guided exercise screens with two bundled start/end images, instructions, cues, set logging, last-session values, rest timer, and form search.
 - Workout overview, exercise swaps, swipe navigation, Wake Lock where supported, and timestamp-based countdowns.
-- Local session history, per-exercise top-set chart, bodyweight log, JSON export/import, and reset.
+- Training insights: weekly session count, completed-set total, recent session duration, personal records, top-set charts, muscle-volume estimate, and bodyweight trend.
+- Edit, add, remove, and replace workout movements in Settings; edit sets, reps, rest, and cues.
+- Local session history, session review, JSON backup/restore, reminder, and reset.
 - English/Arabic language preference with familiar Arabic gym exercise names, the canonical English exercise name alongside each one, Arabic coaching cues, and muscle terminology in a right-to-left layout. It also includes dark/light/system theme, sound/vibration/auto-start controls, warm-up and recovery checklists, and progression reminders.
 - All personal data is stored in localStorage with guarded reads and writes. Export a backup before clearing browser data.
 
@@ -57,4 +61,4 @@ The downloaded JSON index and images are served from the repository's raw GitHub
 3. Choose **Deploy from a branch**, select the default branch and `/ (root)`, then save.
 4. Open the Pages URL on your phone, allow the first load to finish while online, then use **Add to Home Screen** from the browser menu.
 
-Service workers require HTTPS in deployment; GitHub Pages provides it. Any updated app release should use a new cache version in `sw.js`.
+Service workers require HTTPS in deployment; GitHub Pages provides it. Any updated app release should use a new cache version in `sw.js`. Exercise alternatives and photo guides are bundled locally; where the public-domain dataset does not contain the exact machine or grip variant, the walkthrough names the closest photo match so it is clear what the images depict.

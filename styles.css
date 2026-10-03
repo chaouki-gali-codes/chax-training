@@ -21,3 +21,20 @@ html{scroll-behavior:smooth}body{min-height:100vh;padding-top:var(--safe-top);ov
 .set .rir-field select,.fields textarea{width:100%;min-height:40px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);padding:6px;text-align:center;margin-top:5px}.rir-field{grid-column:1/-1}.fields textarea{display:block;text-align:left;resize:vertical;font:inherit;padding:10px}.superset-banner{margin:12px 0;padding:10px 12px;border-radius:12px;background:color-mix(in srgb,var(--accent) 12%,var(--panel));color:var(--accent2);font-size:12px;font-weight:750}.volume-grid{display:grid;gap:12px;margin-top:16px}.volume-row{display:grid;grid-template-columns:1fr 36px;align-items:center;gap:8px;font-size:13px}.volume-row b{text-align:right}.volume-row i{grid-column:1/-1;height:8px;border-radius:9px;background:var(--panel2);overflow:hidden}.volume-row em{display:block;height:100%;border-radius:inherit;background:var(--accent)}
 
 .schedule-row select{margin-left:auto;min-height:42px;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--text);padding:6px 10px}.session-open{width:100%;border:0;background:transparent;color:var(--text);text-align:left;cursor:pointer}.session-exercise{margin-top:14px;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.session-exercise h3{margin:0 0 8px}.session-set-grid{display:grid;gap:5px;color:var(--muted);font-size:13px}.swap-preview{display:grid;grid-template-columns:58px 1fr auto;align-items:center;gap:12px;width:100%;padding:10px;border:1px solid var(--line);border-radius:13px;background:var(--panel);color:var(--text);text-align:left;margin:8px 0}.swap-preview img{width:58px;height:58px;object-fit:cover;border-radius:9px}.swap-preview small{display:block;color:var(--muted);margin-top:4px}.swap-preview strong{color:var(--accent2)}
+
+/* In-app program editor and training insights */
+.program-day{margin-top:18px;padding-top:8px;border-top:1px solid var(--line)}
+.program-day h3{margin:8px 0;color:var(--accent2)}
+.program-edit-row{display:grid;gap:10px;padding:14px 0;border-bottom:1px solid var(--line)}
+.program-edit-row label,.program-choice,.add-exercise{display:grid;gap:6px;color:var(--muted);font-size:12px;font-weight:650}
+.program-edit-row input,.program-edit-row select,.add-exercise select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:10px;background:var(--panel2);color:var(--text);padding:9px 11px;font:inherit;font-weight:500}
+.program-edit-fields{display:grid;grid-template-columns:.7fr 1.3fr .8fr;gap:8px}
+.program-edit-row .remove-exercise{justify-self:start;color:var(--muted);min-height:42px}
+.add-exercise{margin-top:14px;padding:10px 0}
+.program-edit-card .workout-head{align-items:flex-start}
+.program-edit-card .workout-head p{margin:5px 0 0}
+.optional-tag{font-size:10px;font-style:normal;color:var(--accent2);text-transform:uppercase;letter-spacing:.06em}
+.record-row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px}
+.record-row:last-child{border-bottom:0}
+.record-row>span{text-align:right;white-space:nowrap}
+.insight-card .stats{margin-top:12px}
