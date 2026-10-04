@@ -62,3 +62,40 @@ html{scroll-behavior:smooth}body{min-height:100vh;padding-top:var(--safe-top);ov
 .chart-summary b{color:var(--accent2)}
 .chart-caption{display:block;margin-top:8px;font-size:11px}
 @media(max-width:380px){.checkin-results{grid-template-columns:1fr}.chart-head{gap:7px}.chart-picker select{font-size:11px;padding-inline:6px}}
+
+/* Chax visual identity: restrained ember color, crisp iconography, and a calmer dashboard. */
+body{background:radial-gradient(ellipse at 50% -12%,color-mix(in srgb,var(--accent) 12%,transparent),transparent 38rem),var(--bg)}
+.topbar{height:68px;border-bottom-color:color-mix(in srgb,var(--line) 70%,transparent)}
+.brand{gap:11px;letter-spacing:.04em}
+.brand-mark{width:36px;height:36px;border-radius:11px;background:none;object-fit:cover;box-shadow:0 4px 15px #d9480f25}
+.brand-name{display:flex;align-items:baseline;gap:7px;font-size:15px;font-weight:900;letter-spacing:.13em}
+.brand-sub{font-size:10px;color:var(--muted);font-weight:700;letter-spacing:.17em}
+.icon-btn{display:grid;place-items:center;background:color-mix(in srgb,var(--panel) 88%,transparent);transition:transform .16s,border-color .16s,background .16s}
+.icon-btn:active{transform:scale(.94)}
+.icon-btn svg,.bottom-nav svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.container{position:relative}
+.hero{position:relative;padding:26px 0 19px}
+.hero:before{content:"";display:block;width:32px;height:3px;margin-bottom:17px;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.hero h1{max-width:560px;font-size:clamp(34px,8vw,54px);line-height:1.02;letter-spacing:-.055em}
+.hero p{max-width:400px;line-height:1.55}
+.day-chip{position:relative;overflow:hidden;background:color-mix(in srgb,var(--panel) 92%,transparent);}
+.day-chip.selected{background:linear-gradient(155deg,color-mix(in srgb,var(--accent) 19%,var(--panel)),var(--panel));}
+.day-chip.selected:before{content:"";position:absolute;inset:0 27% auto;height:2px;background:var(--accent2);border-radius:0 0 4px 4px}
+.workout-card{background:linear-gradient(145deg,color-mix(in srgb,var(--panel) 97%,white 3%),var(--panel));border-color:color-mix(in srgb,var(--line) 86%,var(--accent) 14%)}
+.workout-head h2{font-size:clamp(24px,6vw,30px);letter-spacing:-.04em}
+.stats{padding:14px 0;margin:17px 0 12px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats b{font-variant-numeric:tabular-nums}
+.exercise-list{margin-top:12px}
+.exercise-row{border-color:color-mix(in srgb,var(--line) 70%,transparent)}
+.number{background:color-mix(in srgb,var(--accent) 12%,var(--panel2));border:1px solid color-mix(in srgb,var(--accent) 24%,var(--line))}
+.primary{background:linear-gradient(110deg,#c83d0a,#e75b20);border:0;box-shadow:0 8px 22px #d9480f38;transition:transform .16s,filter .16s,box-shadow .16s}
+.primary:hover{filter:brightness(1.08);box-shadow:0 10px 28px #d9480f45}
+.primary:active{transform:translateY(1px) scale(.99)}
+.bottom-nav{padding-top:9px}
+.bottom-nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.bottom-nav button.active{color:var(--accent2)}
+.bottom-nav button.active svg{stroke-width:2.2}
+.splash-mark{width:72px;height:72px;object-fit:cover;border-radius:19px;box-shadow:0 12px 32px #d9480f24}
+.splash-lockup{gap:17px;letter-spacing:.13em}
+:root[data-theme="light"] body{background:radial-gradient(ellipse at 50% -12%,#d9480f0e,transparent 38rem),var(--bg)}
+@media(max-width:520px){.topbar{height:62px}.brand-mark{width:34px;height:34px}.brand-name{font-size:14px}.brand-sub{font-size:9px}.hero{padding-top:23px}.hero:before{margin-bottom:15px}.hero h1{font-size:clamp(33px,9vw,42px)}.week{margin-top:18px}.workout-card{box-shadow:0 12px 32px #0002}.bottom-nav{gap:4px}}

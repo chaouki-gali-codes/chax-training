@@ -2,6 +2,8 @@
 
 A mobile-first, offline-capable muscle-building plan and workout log by Chaouki Gali. It is plain HTML, CSS, and vanilla JavaScript with no build step.
 
+The app uses a custom Chax monogram and barbell mark (`images/app-icon.svg`) across its header, intro, favicon, and installable app icons.
+
 ## Run locally
 
 From this directory, run:
