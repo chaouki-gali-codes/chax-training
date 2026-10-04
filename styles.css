@@ -99,3 +99,28 @@ body{background:radial-gradient(ellipse at 50% -12%,color-mix(in srgb,var(--acce
 .splash-lockup{gap:17px;letter-spacing:.13em}
 :root[data-theme="light"] body{background:radial-gradient(ellipse at 50% -12%,#d9480f0e,transparent 38rem),var(--bg)}
 @media(max-width:520px){.topbar{height:62px}.brand-mark{width:34px;height:34px}.brand-name{font-size:14px}.brand-sub{font-size:9px}.hero{padding-top:23px}.hero:before{margin-bottom:15px}.hero h1{font-size:clamp(33px,9vw,42px)}.week{margin-top:18px}.workout-card{box-shadow:0 12px 32px #0002}.bottom-nav{gap:4px}}
+
+/* Motion is brief and functional: orient on entry, confirm taps, and guide exercise changes. */
+@keyframes rise-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes day-select{0%{box-shadow:inset 0 0 0 1px var(--accent),0 0 0 0 #d9480f00}45%{box-shadow:inset 0 0 0 1px var(--accent),0 0 0 7px #d9480f13}100%{box-shadow:inset 0 0 0 1px var(--accent),0 5px 16px #d9480f18}}
+@keyframes check-pop{0%{transform:scale(.72);opacity:.45}65%{transform:scale(1.16)}100%{transform:scale(1);opacity:1}}
+@keyframes enter-forward{from{opacity:0;transform:translateX(22px)}to{opacity:1;transform:translateX(0)}}
+@keyframes enter-back{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:translateX(0)}}
+#app>.container>.hero{animation:rise-in .38s both}
+#app>.container>.week{animation:rise-in .42s .05s both}
+#app>.container>.workout-card{animation:rise-in .44s .1s both}
+#app>.container>.section-title,#app>.container>.grid2{animation:rise-in .42s .15s both}
+.day-chip{transition:transform .18s cubic-bezier(.2,.8,.2,1),border-color .2s,background .2s,box-shadow .2s}
+.day-chip:active{transform:scale(.95)}
+.day-chip.selected{animation:day-select .62s ease-out both}
+.exercise-row{transition:background .18s,transform .18s}
+.exercise-row:active{transform:translateX(3px)}
+.primary,.secondary,.ghost,.icon-btn,.set-button,.bottom-nav button{transition:transform .16s ease,filter .16s,border-color .16s,color .16s,background .16s}
+.primary:active,.secondary:active,.ghost:active,.icon-btn:active{transform:scale(.97)}
+.set{transition:border-color .2s,background .2s,box-shadow .2s}
+.set.done{box-shadow:0 4px 14px color-mix(in srgb,var(--green) 15%,transparent)}
+.set.done .set-button{animation:check-pop .28s cubic-bezier(.2,.8,.2,1) both}
+.bottom-nav button:active{transform:translateY(-2px)}
+body.workout-nav-motion.workout-slide-forward #app>.container{animation:enter-forward .27s cubic-bezier(.2,.7,.2,1) both}
+body.workout-nav-motion.workout-slide-back #app>.container{animation:enter-back .27s cubic-bezier(.2,.7,.2,1) both}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
